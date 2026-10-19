@@ -1,0 +1,15 @@
+{
+  "seed": 42,
+  "counts": {
+    "train": 400,
+    "validation": 50,
+    "test": 50
+  },
+  "sha256": {
+    "train": "c03d8e75d19ebc7b8213c9be1664482048c32d4e865fa222d22399d02747f474",
+    "validation": "4ebb9fbb7dae8ed2fbd3b85a0c0574a9f757353d8d0c20a9a0f0d48f33156e9c",
+    "test": "760e458b53006f49ff4f465855c3b4bdad4fbcef6a51dac55afb22907f1f090e"
+  },
+  "data_policy": "user_bulk_approved_synthetic",
+  "stratified_by_area": true
+}

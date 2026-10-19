@@ -1,0 +1,16 @@
+.git
+.venv
+**/node_modules
+**/.env
+**/.env.*
+**/__pycache__
+**/.pytest_cache
+**/dist
+backend/.data
+ml/artifacts
+ml/checkpoints
+bugbrief-qlora-*-adapter
+bugbrief-qlora-*-adapter.zip
+.vercel
+test-results
+BugBrief_Project_Description.docx

@@ -1,0 +1,25 @@
+{
+  "notebook_valid": true,
+  "tokenizer_revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "splits": {
+    "train": {
+      "count": 400,
+      "max_total_tokens": 1021,
+      "max_input_tokens": 818,
+      "max_assistant_tokens": 212
+    },
+    "validation": {
+      "count": 50,
+      "max_total_tokens": 982,
+      "max_input_tokens": 799,
+      "max_assistant_tokens": 192
+    },
+    "test": {
+      "count": 50,
+      "max_total_tokens": 982,
+      "max_input_tokens": 795,
+      "max_assistant_tokens": 196
+    }
+  },
+  "gpu_training_executed": false
+}

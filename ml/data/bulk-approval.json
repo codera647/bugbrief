@@ -1,0 +1,2516 @@
+{
+  "version": 1,
+  "approval_type": "user_bulk_approval",
+  "approved_by": "Project user via conversation",
+  "instruction": "approve all",
+  "approved_at": "2026-10-13T11:22:40.728292+00:00",
+  "candidate_file": "candidates-500.jsonl",
+  "candidate_file_sha256": "bdb3e159c006ae86a3f94ed0104f84e83219fd4caba0df3a067cb0c34751ca2c",
+  "approved_count": 500,
+  "individual_human_review_verified": false,
+  "note": "User approved the complete candidate batch. This records bulk acceptance; it does not attest that each example received individual human review.",
+  "examples": [
+    {
+      "id": "authentication-reset-email-v01",
+      "decision": "approved",
+      "sha256": "b64c0a61df307666781b0bc6d57e4259b6f32b69f28f27dc862bab05499148fa"
+    },
+    {
+      "id": "billing-bulk-export-v01",
+      "decision": "approved",
+      "sha256": "26233acf9e086f7d88be1b06b54954d0ddbb7c68632303893ee59a65d8d2552b"
+    },
+    {
+      "id": "dashboard-dashboard-loading-v01",
+      "decision": "approved",
+      "sha256": "e5645574718d0618ab0a4aa5cb489cbe4c756d950f0a72c03737222f6a67a436"
+    },
+    {
+      "id": "integrations-disconnect-v01",
+      "decision": "approved",
+      "sha256": "3ffc89ba5c560db585dd1068aaae96434ba176bbe6039eccabda448661dc0563"
+    },
+    {
+      "id": "unknown-list-empty-v01",
+      "decision": "approved",
+      "sha256": "835ece22dee0500ddef12e6d6a3ea76e5c914545b201933e59ce9a5fec29396b"
+    },
+    {
+      "id": "authentication-reset-email-v02",
+      "decision": "approved",
+      "sha256": "a0bb3ee661b40079d073ff1c3da06c089cb48228fe8798e6bb43dc36d7c2590f"
+    },
+    {
+      "id": "billing-bulk-export-v02",
+      "decision": "approved",
+      "sha256": "f20878feb7b6d31f8374f5141d47afeabcb7001a3e7df14d28354bab7bbe0886"
+    },
+    {
+      "id": "dashboard-dashboard-loading-v02",
+      "decision": "approved",
+      "sha256": "3120ea132822d3aa2ed64e7459f01fda3fe9726fc32ad1c0033df3de379c72cc"
+    },
+    {
+      "id": "integrations-disconnect-v02",
+      "decision": "approved",
+      "sha256": "07c1f6c24136dbaf894d3dea19668a4639d9225d0032db415918b59531e426be"
+    },
+    {
+      "id": "unknown-list-empty-v02",
+      "decision": "approved",
+      "sha256": "6e508ff5a62d00482ccddf91325a829d676cdc55302e41c4326b1ba35507322d"
+    },
+    {
+      "id": "authentication-reset-email-v03",
+      "decision": "approved",
+      "sha256": "37744699b55d0e026835e33be82ab991576cecec591d82d4755bf1370d706233"
+    },
+    {
+      "id": "billing-bulk-export-v03",
+      "decision": "approved",
+      "sha256": "2a97b9c9fe902cf50068069b72cfd60cc5979c3947b41de3c77174e33a4b17fd"
+    },
+    {
+      "id": "dashboard-dashboard-loading-v03",
+      "decision": "approved",
+      "sha256": "fc16ddae0cb18e9b8d3d6bd8cf3e206108f12bff6e9a1a9570c40345f13e98a4"
+    },
+    {
+      "id": "integrations-disconnect-v03",
+      "decision": "approved",
+      "sha256": "067e9cf75aa45d3dabb546f9208572ecadc943a6407d07a5bee97b410d9e1f4b"
+    },
+    {
+      "id": "unknown-list-empty-v03",
+      "decision": "approved",
+      "sha256": "a56e413907be8ab66671139845042facdb9f2a0afb72ba46d3ed91001840ce4b"
+    },
+    {
+      "id": "authentication-reset-email-v04",
+      "decision": "approved",
+      "sha256": "ab882f1b5a84d6ac2f9e981d9aaf0c8f9eda5851221dab7040cbb09786a6c0cf"
+    },
+    {
+      "id": "billing-bulk-export-v04",
+      "decision": "approved",
+      "sha256": "9289f4bf2c9ec98f7b0148e1b955380570cea96a561f6d5756dd0860fe5471fa"
+    },
+    {
+      "id": "dashboard-dashboard-loading-v04",
+      "decision": "approved",
+      "sha256": "baf2ad3fd76a01f29e394d6a9e8b4a5ae330c8b026250460b2e54a5211b0847d"
+    },
+    {
+      "id": "integrations-disconnect-v04",
+      "decision": "approved",
+      "sha256": "ede87fdf0229b9730683b6e1447d839f53cbf55eee2316c349305a37afcc43d3"
+    },
+    {
+      "id": "unknown-list-empty-v04",
+      "decision": "approved",
+      "sha256": "114e03542c335f7b62f9b563c2ce1cbfa8c643339c3bd36ca7857b5b9d85becd"
+    },
+    {
+      "id": "authentication-reset-email-v05",
+      "decision": "approved",
+      "sha256": "34208baf762361ac1c53247badbc029b661f7b2ef1189f5d4362ab3a53673b3c"
+    },
+    {
+      "id": "billing-bulk-export-v05",
+      "decision": "approved",
+      "sha256": "8921cde4eada28ccc86557f3e0d27787ba541cc9e49d6ee0d5a1420f2c3d94de"
+    },
+    {
+      "id": "dashboard-dashboard-loading-v05",
+      "decision": "approved",
+      "sha256": "0d44f0a96946b0106bb6f0e2f82436c1b85161beabc51965ce88e790f6d81171"
+    },
+    {
+      "id": "integrations-disconnect-v05",
+      "decision": "approved",
+      "sha256": "306379b5d2c94271563f76b7f413d516e59dfcc61561fad41fb49872ac901630"
+    },
+    {
+      "id": "unknown-list-empty-v05",
+      "decision": "approved",
+      "sha256": "8bb526c18950c7458940a06ed6401addfb95c5b5fcce54ee486e78caf6efbe60"
+    },
+    {
+      "id": "authentication-reset-email-v06",
+      "decision": "approved",
+      "sha256": "bc64c4a9a68ba644d7ebfa849ce839ae09b742bebb99e2403443d37d39a3cd60"
+    },
+    {
+      "id": "billing-bulk-export-v06",
+      "decision": "approved",
+      "sha256": "29b33a77baeea2a7b9ffb1699666eb019f5d3a3d6a00de2578beadb6a5923466"
+    },
+    {
+      "id": "dashboard-dashboard-loading-v06",
+      "decision": "approved",
+      "sha256": "809c3d6531186bd30729c666d373d67957910ff0d44dc263b50a9d0e37fe1a2b"
+    },
+    {
+      "id": "integrations-disconnect-v06",
+      "decision": "approved",
+      "sha256": "28756de3d1600c6c7ed5e75d45bfcc7297f156b753e9c5e0e08a4e5aa5654591"
+    },
+    {
+      "id": "unknown-list-empty-v06",
+      "decision": "approved",
+      "sha256": "73fe23daba11147657eb4fb39b56100692236b84dffc6152da2ea64326a46d1f"
+    },
+    {
+      "id": "authentication-reset-email-v07",
+      "decision": "approved",
+      "sha256": "a3b2ba3ee5c9ff7b2cc62d720821fd65ff97cdc0f2c0658ab9e606bbeb3d0cdc"
+    },
+    {
+      "id": "billing-bulk-export-v07",
+      "decision": "approved",
+      "sha256": "89ae42088e356f334a0bf866e4170ae64ea6b75925155337b665f1b2186b48a8"
+    },
+    {
+      "id": "dashboard-dashboard-loading-v07",
+      "decision": "approved",
+      "sha256": "686bc6bd61b1e971758b7cdffe8f993ac931fadf09507857ad700873373caa23"
+    },
+    {
+      "id": "integrations-disconnect-v07",
+      "decision": "approved",
+      "sha256": "07c3a7f2a8c9a4185a59c2451ffecd5876f83eccc51cad1b9a33bf46d29c86a3"
+    },
+    {
+      "id": "unknown-list-empty-v07",
+      "decision": "approved",
+      "sha256": "66fae5a1f7279af6aa886cef449fa888cd22217e59cf1a0315ff71351b009786"
+    },
+    {
+      "id": "authentication-reset-email-v08",
+      "decision": "approved",
+      "sha256": "550f08aba1d726aa268b6c0ec66ddfdf8788e6f23ff59aab0949a970b751a9a7"
+    },
+    {
+      "id": "billing-bulk-export-v08",
+      "decision": "approved",
+      "sha256": "3fcd403177192a8b3d4002c560eb8de2398d8310b3d2316a35b4d4a580354cb1"
+    },
+    {
+      "id": "dashboard-dashboard-loading-v08",
+      "decision": "approved",
+      "sha256": "6cc35be14ee66bc31052916c708daef0caea6280576382fabc01a8af4a3be980"
+    },
+    {
+      "id": "integrations-disconnect-v08",
+      "decision": "approved",
+      "sha256": "8965376d87c6e8d64627c8e301356d8f9b1e99e042850e92926fa3bb80dd7da5"
+    },
+    {
+      "id": "unknown-list-empty-v08",
+      "decision": "approved",
+      "sha256": "e99b10dad391887e858b25612b8a22b6fbf53040187962f77dd3964272c3e7c7"
+    },
+    {
+      "id": "authentication-reset-email-v09",
+      "decision": "approved",
+      "sha256": "9cb35df5dd9d62f0d24e58aab140a6cb64238b96440f89607015c650bfde3f5c"
+    },
+    {
+      "id": "billing-bulk-export-v09",
+      "decision": "approved",
+      "sha256": "0ec2952e8688b573229b06122f49cf4cf6904f99747da06766ca4c0a26c0be18"
+    },
+    {
+      "id": "dashboard-dashboard-loading-v09",
+      "decision": "approved",
+      "sha256": "2f9a797457b58f11280bd373887913c9f552f6b30f83b296bd4a8dc33d36de31"
+    },
+    {
+      "id": "integrations-disconnect-v09",
+      "decision": "approved",
+      "sha256": "e4c5bc9a0d39e4a1cafa375ec1aa306163720928ca3dfdf47142ec7046d81744"
+    },
+    {
+      "id": "unknown-list-empty-v09",
+      "decision": "approved",
+      "sha256": "753dda21faa812e62335b7b3b29a13570df1c6972c9fd9ba9720e24a282fa940"
+    },
+    {
+      "id": "authentication-reset-email-v10",
+      "decision": "approved",
+      "sha256": "54dfc83ab69a6cfb8cc8537dd399eccbdee624988db5b4370e4ee7ef33e466a3"
+    },
+    {
+      "id": "billing-bulk-export-v10",
+      "decision": "approved",
+      "sha256": "26bb44c7a6da9a63a2e9642759bb7a7ed80d658856f095870b4e2cf3b40493ea"
+    },
+    {
+      "id": "dashboard-dashboard-loading-v10",
+      "decision": "approved",
+      "sha256": "196e335bd3f63b23e2930b7811d64ae4181d52bb495fed3585db000585c29108"
+    },
+    {
+      "id": "integrations-disconnect-v10",
+      "decision": "approved",
+      "sha256": "634795bbf5ed0ce4dca5a4240c7b222340bc3e81b17e37a57547cd4539d3051f"
+    },
+    {
+      "id": "unknown-list-empty-v10",
+      "decision": "approved",
+      "sha256": "7054bd7006a5a0407a089dc033c9f799eecfd3a41fef0473a98f64c55813aa01"
+    },
+    {
+      "id": "authentication-signin-loop-v01",
+      "decision": "approved",
+      "sha256": "eac06c386d93aa2ceaab6a873804b149f638902b11c00fabc6e28727f2f35721"
+    },
+    {
+      "id": "billing-subscription-page-v01",
+      "decision": "approved",
+      "sha256": "8149a8c777e53ac1d032ee73f64db093aded2600dc1a1d89bdc1062bf1ce69bf"
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v01",
+      "decision": "approved",
+      "sha256": "3c7e60adbe324517b80a0f35083e21d785bad40f55f0cbec2ed066d461bbca24"
+    },
+    {
+      "id": "integrations-reconnect-v01",
+      "decision": "approved",
+      "sha256": "41cc00dfcc57be03ca08672944ad3073bdea4b849cc79582ef30293c5e5a1097"
+    },
+    {
+      "id": "unknown-unavailable-option-v01",
+      "decision": "approved",
+      "sha256": "1fb91e6f74a8ea672448fabce445bead6a0e4fe4424ad0380aa4c9406a96b507"
+    },
+    {
+      "id": "authentication-signin-loop-v02",
+      "decision": "approved",
+      "sha256": "72348a5e52c87b423d74ca38947639d0300117ba5b3134da6aef49db2c7a734f"
+    },
+    {
+      "id": "billing-subscription-page-v02",
+      "decision": "approved",
+      "sha256": "12ecc6741dc3302868af3eaf047cd657056994d9a505dfde66b1f1f66a626269"
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v02",
+      "decision": "approved",
+      "sha256": "5baf63dd2207c4680658fe0681f97f119b516c963e951916b5594dbafa5c9083"
+    },
+    {
+      "id": "integrations-reconnect-v02",
+      "decision": "approved",
+      "sha256": "f95094dd25bdf573d1cf380d5e487946c5b4edb6047a9787a467098c35c56a64"
+    },
+    {
+      "id": "unknown-unavailable-option-v02",
+      "decision": "approved",
+      "sha256": "a918808bac591bdf9a9028f1137015df24c4af8c1bf34345eadcf41cf96695e0"
+    },
+    {
+      "id": "authentication-signin-loop-v03",
+      "decision": "approved",
+      "sha256": "76589fbb88434c3c495ca33b106edcf9c799079b72fb9b9abe14d07a7c18fb88"
+    },
+    {
+      "id": "billing-subscription-page-v03",
+      "decision": "approved",
+      "sha256": "873755b90c317996fcff713818afff4e3b806033029b74af77320b1c3cdb8c4d"
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v03",
+      "decision": "approved",
+      "sha256": "7c908a07ec9a76dd75eea886207c6cd299867a06bb221ddf7bfc74c179916168"
+    },
+    {
+      "id": "integrations-reconnect-v03",
+      "decision": "approved",
+      "sha256": "e8dc0711d5ef1694cb6e5d62ece8e81cdf0be5e7ab68e1c48db48eb504afd5e4"
+    },
+    {
+      "id": "unknown-unavailable-option-v03",
+      "decision": "approved",
+      "sha256": "fc387639c1624d40a194ebf16e0bf4384c10c06dac72b18324435d66e78b8fad"
+    },
+    {
+      "id": "authentication-signin-loop-v04",
+      "decision": "approved",
+      "sha256": "3a1fe891008d990509d361db34bff91c7b7f0c40e3974870858158faaf63cdcb"
+    },
+    {
+      "id": "billing-subscription-page-v04",
+      "decision": "approved",
+      "sha256": "40e74e43c87b049ad8b389299aa7a20ff9bad6fee40a433fdfb64342372d8d80"
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v04",
+      "decision": "approved",
+      "sha256": "3228eaa0e164ddf6e29c0dc6af80ae84c8be3c41ae2d2df36523f98d0c6a84e7"
+    },
+    {
+      "id": "integrations-reconnect-v04",
+      "decision": "approved",
+      "sha256": "e1cb6856f3510544a8377e36fa54113c2d5c573244e809c8b79195a9d4e56a79"
+    },
+    {
+      "id": "unknown-unavailable-option-v04",
+      "decision": "approved",
+      "sha256": "89ee13d0a58218ea919005f3df1ac9d212c95b776138ddbf704a11a39526b246"
+    },
+    {
+      "id": "authentication-signin-loop-v05",
+      "decision": "approved",
+      "sha256": "79d303dc57d01dcb35da7e82b27ea6bf49d5fe6f69a92f056d7b8bff084bf85f"
+    },
+    {
+      "id": "billing-subscription-page-v05",
+      "decision": "approved",
+      "sha256": "7a917c4356250d5eb597dd291863af2655bb9f54593e34efb633d83c50e16212"
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v05",
+      "decision": "approved",
+      "sha256": "f53a9537d20619659d72d178f125264fe1f70dc85e0d577bb5687a82fb5a8485"
+    },
+    {
+      "id": "integrations-reconnect-v05",
+      "decision": "approved",
+      "sha256": "5510a9707e4f53c90f882931a2bcde9713b214ab7119442e4dadc303d4946ff8"
+    },
+    {
+      "id": "unknown-unavailable-option-v05",
+      "decision": "approved",
+      "sha256": "b0e91d41b987725e2b554c9f31092f6e4c6573e9a0483fe0479dc2257eca5657"
+    },
+    {
+      "id": "authentication-signin-loop-v06",
+      "decision": "approved",
+      "sha256": "4b4ea41b9283da8d3eb9491259b5afd16c6bfdf52e09810454107ee6329ab70f"
+    },
+    {
+      "id": "billing-subscription-page-v06",
+      "decision": "approved",
+      "sha256": "a5ebe6da40171b6d002734c2c1272fd73b597042723db10a62949aa30d58189b"
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v06",
+      "decision": "approved",
+      "sha256": "7f2b950fe5a1426c07e007c8c9e13f81e3633c12760ced7e1fc72cd6f51c5c4a"
+    },
+    {
+      "id": "integrations-reconnect-v06",
+      "decision": "approved",
+      "sha256": "8e946fb8f6af3337377eb8c55a001516aa356c689df84d8530c3dbb1276a8ce8"
+    },
+    {
+      "id": "unknown-unavailable-option-v06",
+      "decision": "approved",
+      "sha256": "385e7618f7192fd7c9f59c4245b0e92fa7b5f5989c540c7aec60fe4986ccfea8"
+    },
+    {
+      "id": "authentication-signin-loop-v07",
+      "decision": "approved",
+      "sha256": "a56d5a9154274307410f4f2692bec751ea9a677d2af7a0e5bbcb074fbf63040e"
+    },
+    {
+      "id": "billing-subscription-page-v07",
+      "decision": "approved",
+      "sha256": "75679b12b34114f0441c7a38f77dd62306d6d86b6493a78ae5598d144c5bee86"
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v07",
+      "decision": "approved",
+      "sha256": "3f20c8c1e75b59aa8ba43e60b327e02e8dba44fb47108d1b6c7f78a1856b7507"
+    },
+    {
+      "id": "integrations-reconnect-v07",
+      "decision": "approved",
+      "sha256": "6f5721f9bb35a2382a72280b510389a32fe76b922b765e60694005ae612f0fd4"
+    },
+    {
+      "id": "unknown-unavailable-option-v07",
+      "decision": "approved",
+      "sha256": "1cb27933ca74552c98c8280572487c06659be025ded3479db1202513eff9a6f7"
+    },
+    {
+      "id": "authentication-signin-loop-v08",
+      "decision": "approved",
+      "sha256": "cacbd9917b88e907cf7b6aa94a73c734966ca8236f239ba1d7fcb704cf8e650a"
+    },
+    {
+      "id": "billing-subscription-page-v08",
+      "decision": "approved",
+      "sha256": "e6ce6d8d17c54b0813861eb378d045c5556390030ec2ed37ea09004d3f1f230f"
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v08",
+      "decision": "approved",
+      "sha256": "056d40ec3f35803500e18537641d8263988ccb64fab1e53be02407da1f5a46a2"
+    },
+    {
+      "id": "integrations-reconnect-v08",
+      "decision": "approved",
+      "sha256": "e66ab72db9bb23e97893f1a3e763feeba72f884a3b9a88f4f0759292b9a7b27f"
+    },
+    {
+      "id": "unknown-unavailable-option-v08",
+      "decision": "approved",
+      "sha256": "9bdfa77db5af99c28d0d9fe5fb7c686e1d7cc27991362fbf44dc8916049691a0"
+    },
+    {
+      "id": "authentication-signin-loop-v09",
+      "decision": "approved",
+      "sha256": "4a8e348abfc223fb9e48ef787c860449ec3c45ff73160b1ac24d57babaecd732"
+    },
+    {
+      "id": "billing-subscription-page-v09",
+      "decision": "approved",
+      "sha256": "37aaacf3ff73cddeafab451ba557c6e734f5d98543e50182bf152b8aa91b2c22"
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v09",
+      "decision": "approved",
+      "sha256": "41eef25228940d2c042caca721875edd591b68b0785426ebb79158fcbf2e6906"
+    },
+    {
+      "id": "integrations-reconnect-v09",
+      "decision": "approved",
+      "sha256": "de10d840af1bc986587a932cc5eef838af28e34749ad4c393725aded968d9cee"
+    },
+    {
+      "id": "unknown-unavailable-option-v09",
+      "decision": "approved",
+      "sha256": "12ccfc7cc7e6a773c02b13890bff83562d2e2e3e31f5b88f5ef1088d3b49998c"
+    },
+    {
+      "id": "authentication-signin-loop-v10",
+      "decision": "approved",
+      "sha256": "731ddd13e1752f9fe8197095a19ce4cd1cf6b9eee637cbb37f324be19e0d62ba"
+    },
+    {
+      "id": "billing-subscription-page-v10",
+      "decision": "approved",
+      "sha256": "971bac8a896915244f9956dbd18f443690f365cb72b7cf8a1f5f820f6fcb49a8"
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v10",
+      "decision": "approved",
+      "sha256": "b86ce52f370ff65b6c3002cef890989de8bf25f7c94d064f0150e51c1866a8c8"
+    },
+    {
+      "id": "integrations-reconnect-v10",
+      "decision": "approved",
+      "sha256": "d5e33bb62726bcf1557448e9c2f118302be81071360d5c82610ab93e8226059e"
+    },
+    {
+      "id": "unknown-unavailable-option-v10",
+      "decision": "approved",
+      "sha256": "5a9de63322415fa4194b23e3a44ac87e7f34510fbb96daf0ee455693444c9f99"
+    },
+    {
+      "id": "authentication-session-ended-v01",
+      "decision": "approved",
+      "sha256": "702127a8be1bb77c0dfd4fa198fb75158d8f537670d052aca34752604846f486"
+    },
+    {
+      "id": "billing-invoice-download-v01",
+      "decision": "approved",
+      "sha256": "150e3e88907f51e3276d5ebe46821cf80ccf42735b1a1fc3218cd8a7e2362986"
+    },
+    {
+      "id": "dashboard-chart-tooltip-v01",
+      "decision": "approved",
+      "sha256": "e25752509cd209c3663bb467924f8563837ade89b5b3fbfd07feba3447d01580"
+    },
+    {
+      "id": "integrations-slack-connect-v01",
+      "decision": "approved",
+      "sha256": "280e0c8e8bbd2fe300cb59a92fc866014301f031979712135083e7194dd4f1c9"
+    },
+    {
+      "id": "unknown-blank-page-v01",
+      "decision": "approved",
+      "sha256": "205076d3aea459a3f42548aaa3b1c279d67b60c8d561796116d664a8ffd601b2"
+    },
+    {
+      "id": "authentication-session-ended-v02",
+      "decision": "approved",
+      "sha256": "66ee1267149116c89beb56303bc579e76041c37b0abab1805155ba175ed280bd"
+    },
+    {
+      "id": "billing-invoice-download-v02",
+      "decision": "approved",
+      "sha256": "bcc11283cad3f200627a4e5d4e6d63bae4994d0ce48cda47e949b909045ffb65"
+    },
+    {
+      "id": "dashboard-chart-tooltip-v02",
+      "decision": "approved",
+      "sha256": "927ebff6127fb17d0571520d6c3a34a658e80b78076e33aaa0387ac074e9ea27"
+    },
+    {
+      "id": "integrations-slack-connect-v02",
+      "decision": "approved",
+      "sha256": "a4c98b31ad3754f05e3ac60e95623af7e639df3be11460337b384cf373501c0c"
+    },
+    {
+      "id": "unknown-blank-page-v02",
+      "decision": "approved",
+      "sha256": "cde35882d8795f0685581a0f40aa3221977fb42637cb2bf4831b818f9d51b4f7"
+    },
+    {
+      "id": "authentication-session-ended-v03",
+      "decision": "approved",
+      "sha256": "3e84c4c42d511c37ace323a75bc246860ec05871c8dc87ac005637af89895d0c"
+    },
+    {
+      "id": "billing-invoice-download-v03",
+      "decision": "approved",
+      "sha256": "09596f8dfe456d94a5d39094c7dac985e8c114c3a5568902511e4b296c8d0b44"
+    },
+    {
+      "id": "dashboard-chart-tooltip-v03",
+      "decision": "approved",
+      "sha256": "049392bc09e68ed879e290cf4a8cf2c6a25793dd7f75c4ac5ac61a2944b5d343"
+    },
+    {
+      "id": "integrations-slack-connect-v03",
+      "decision": "approved",
+      "sha256": "da66be5bac2ef6ac85279cbe1ee56513592501e00edb4db3d099aa3f351446ac"
+    },
+    {
+      "id": "unknown-blank-page-v03",
+      "decision": "approved",
+      "sha256": "58a80430fc6d6c6544d59365485fa89af04470204904e2804cb5a361b46e18dc"
+    },
+    {
+      "id": "authentication-session-ended-v04",
+      "decision": "approved",
+      "sha256": "38bc557e9215676306c643456d724de86c8dfc0a28636a00d529ff8cc5d51718"
+    },
+    {
+      "id": "billing-invoice-download-v04",
+      "decision": "approved",
+      "sha256": "81b4cbddc6b7784ca5b8c0b1b7dd5ad29f5e547b0fa204d6114b40ba87d072bd"
+    },
+    {
+      "id": "dashboard-chart-tooltip-v04",
+      "decision": "approved",
+      "sha256": "9f88c67174d740c458c618cb6cfdb23c962fcb3501d52ce1c499b8a03a510298"
+    },
+    {
+      "id": "integrations-slack-connect-v04",
+      "decision": "approved",
+      "sha256": "bfd845c7c065c14714fcde6f8ab4f1f2d8d18bc9fc1dc49a12f0b8dbfb17fa32"
+    },
+    {
+      "id": "unknown-blank-page-v04",
+      "decision": "approved",
+      "sha256": "07986148e9c0ab464ec84848e733732fa3a68574664c4db3fab04460a8194cb5"
+    },
+    {
+      "id": "authentication-session-ended-v05",
+      "decision": "approved",
+      "sha256": "9a5fa571332252cec7924d1823c83abe982c362f2975868202b58eecd5076bd7"
+    },
+    {
+      "id": "billing-invoice-download-v05",
+      "decision": "approved",
+      "sha256": "865656d31d1808a6fcaec9840bbdd94148f41d06eecd9ddf18e451bedecc1573"
+    },
+    {
+      "id": "dashboard-chart-tooltip-v05",
+      "decision": "approved",
+      "sha256": "5e06866da5075d5c15b4b8bacedddaa4e1357eb68dcd9a84c7cd57b839311306"
+    },
+    {
+      "id": "integrations-slack-connect-v05",
+      "decision": "approved",
+      "sha256": "2a5c205df1db6594351106ab1f8f76bad6730009c8887cd3883fc76caeab7912"
+    },
+    {
+      "id": "unknown-blank-page-v05",
+      "decision": "approved",
+      "sha256": "b55a28d530f8a25621e196e9d907602b21c3ab81ae414e4d1215d148b79b343a"
+    },
+    {
+      "id": "authentication-session-ended-v06",
+      "decision": "approved",
+      "sha256": "a59d7389d9cead37a8fd20f40936645f6169d4af78ddcab604359b5d092050fb"
+    },
+    {
+      "id": "billing-invoice-download-v06",
+      "decision": "approved",
+      "sha256": "ba3d97fff73ffe9bc81eac2f73de236bd41fb207fe746ee46bc24563c890fc41"
+    },
+    {
+      "id": "dashboard-chart-tooltip-v06",
+      "decision": "approved",
+      "sha256": "5d8e6af19981302be6de4fa19d8b5cd1b50a367ff2c4335477f0050dad6d4d26"
+    },
+    {
+      "id": "integrations-slack-connect-v06",
+      "decision": "approved",
+      "sha256": "fb1dc6d906789fd66c66fa9146a534c15aafc20ce579b0e126cd98b1aa6a5977"
+    },
+    {
+      "id": "unknown-blank-page-v06",
+      "decision": "approved",
+      "sha256": "1c35e38fa5d074bcc58ad1b9df089e04f055332284fc0d8acab7bbffc2653421"
+    },
+    {
+      "id": "authentication-session-ended-v07",
+      "decision": "approved",
+      "sha256": "56379725467697de690af0bec3c1ada8677d9bc90e6578ab8023c38fac028e78"
+    },
+    {
+      "id": "billing-invoice-download-v07",
+      "decision": "approved",
+      "sha256": "f3686628d7546a5251903a76453685854d1dfc69ed8875c6315cff3234391f94"
+    },
+    {
+      "id": "dashboard-chart-tooltip-v07",
+      "decision": "approved",
+      "sha256": "07cdf2e03b750e75da381edf85161324f58fb2b59eda56641370d6ce1531c122"
+    },
+    {
+      "id": "integrations-slack-connect-v07",
+      "decision": "approved",
+      "sha256": "97162f8bfb7708c83d0ebad1b9ded96c552418489d2983d03ad5174a259d2bc9"
+    },
+    {
+      "id": "unknown-blank-page-v07",
+      "decision": "approved",
+      "sha256": "f725fc7dd5ff08d452a254268a2b2dc9259868ab6cd8e16c121782c549caaa13"
+    },
+    {
+      "id": "authentication-session-ended-v08",
+      "decision": "approved",
+      "sha256": "806f8726830439dbddd5aa3d5a04a4ed328f9f21451c3f3be0b68bd1d1f02959"
+    },
+    {
+      "id": "billing-invoice-download-v08",
+      "decision": "approved",
+      "sha256": "ce2eb96a94658ce9f34db049589723cc0bb0df360fabe1badb5bee72193806bf"
+    },
+    {
+      "id": "dashboard-chart-tooltip-v08",
+      "decision": "approved",
+      "sha256": "dd42b69253223978a7bbc882c000df486bdfde61ab3451a7a8951d7bf5af2107"
+    },
+    {
+      "id": "integrations-slack-connect-v08",
+      "decision": "approved",
+      "sha256": "9ab36fcfd82e0fc0fc081c1989f750c018d3c62aefd9eb86d60666001debfa7c"
+    },
+    {
+      "id": "unknown-blank-page-v08",
+      "decision": "approved",
+      "sha256": "5f45e7a9a725f011edf3d859cc10ee72654bd15b26dc0dce78b3a1d76d964a33"
+    },
+    {
+      "id": "authentication-session-ended-v09",
+      "decision": "approved",
+      "sha256": "f06e4dd9a4d45854be905777880efb2f6958a2fb1dd0f34ad5cfce5918a96717"
+    },
+    {
+      "id": "billing-invoice-download-v09",
+      "decision": "approved",
+      "sha256": "7a955966006c2ed0098618f740ce2c018c192bffc64161eaeb6decc29a5b684d"
+    },
+    {
+      "id": "dashboard-chart-tooltip-v09",
+      "decision": "approved",
+      "sha256": "e8c96783eefcaec6cc68d1a967c54183b58d642ecd7d2a272e627e6308178a71"
+    },
+    {
+      "id": "integrations-slack-connect-v09",
+      "decision": "approved",
+      "sha256": "7e127bf35a95f1fcd281b1cb7144baf578ea29e215dd8ea0abbdbff10c9eb433"
+    },
+    {
+      "id": "unknown-blank-page-v09",
+      "decision": "approved",
+      "sha256": "01e242c5ff3c1aca2879eb152d23bb375c84ad50df76a61351efd49d7d89c0bc"
+    },
+    {
+      "id": "authentication-session-ended-v10",
+      "decision": "approved",
+      "sha256": "cf624aa04232d3ea7f6bd32271f8a39866b5020d231c40dcc86ebea7fbddd0fc"
+    },
+    {
+      "id": "billing-invoice-download-v10",
+      "decision": "approved",
+      "sha256": "dfad6b788d4b7aa7c2b9c006c92bf4be20ed175650dda2a7a329066a006a1b90"
+    },
+    {
+      "id": "dashboard-chart-tooltip-v10",
+      "decision": "approved",
+      "sha256": "b45aac883003cdf1848160c5a7335c207441d753ce83349ebaf7f4001fd056ed"
+    },
+    {
+      "id": "integrations-slack-connect-v10",
+      "decision": "approved",
+      "sha256": "257f93e7816b8bdff34fc049ef89ec2d5ba42c15178068ba1e96fa55bd3e78ba"
+    },
+    {
+      "id": "unknown-blank-page-v10",
+      "decision": "approved",
+      "sha256": "e8992a0d1a43550f8516ce2829af1aa878182167f0970e6b7298c42d8eadfd02"
+    },
+    {
+      "id": "authentication-mfa-qr-v01",
+      "decision": "approved",
+      "sha256": "5d83ff56ca7a90a6c0bce925aa106ae26e2ae83bbbc3e2acb06bfcdacdc51b9f"
+    },
+    {
+      "id": "billing-currency-label-v01",
+      "decision": "approved",
+      "sha256": "05fa4e137d1ceb054edc52d839bb69bd2acd05a041817d3d99f58dcc69f66ea3"
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v01",
+      "decision": "approved",
+      "sha256": "1fd00155398fb1c1a8dcda8b92832ddf22f95ad9e22fe313d665e4de9a93a49c"
+    },
+    {
+      "id": "integrations-stripe-sync-v01",
+      "decision": "approved",
+      "sha256": "d907a866db9a518888580a9673b45f00e3f074a8c4e2b517f19898289b448ff4"
+    },
+    {
+      "id": "unknown-generic-error-v01",
+      "decision": "approved",
+      "sha256": "a559a7843db4ef1e3510724e61c647ab3ad24e27d7b77242da3d913ad489ece8"
+    },
+    {
+      "id": "authentication-mfa-qr-v02",
+      "decision": "approved",
+      "sha256": "6b004a097631b294f3b346469007fdabc7b41792644aaddd7336a105a18ce247"
+    },
+    {
+      "id": "billing-currency-label-v02",
+      "decision": "approved",
+      "sha256": "86a0d1cc926cf730c1e7350f36088717bf9e938f0bd0f71a8cff6c8ca0a6785d"
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v02",
+      "decision": "approved",
+      "sha256": "8ffae0fb92cdd33c49e9dfed0db7a7b059b1f8318ee84c5fcdeac881df306e8d"
+    },
+    {
+      "id": "integrations-stripe-sync-v02",
+      "decision": "approved",
+      "sha256": "0d068d096cbfd02ab3fb393651c753fb0d48d941675f2dedc0d336b62947061c"
+    },
+    {
+      "id": "unknown-generic-error-v02",
+      "decision": "approved",
+      "sha256": "0440418935f6e59e923dfe4b700c5a43b2d8f163f675ef8b339d06078b9d227f"
+    },
+    {
+      "id": "authentication-mfa-qr-v03",
+      "decision": "approved",
+      "sha256": "b0f70171b5ee9b7d01bf308252e41181a15ccd20c16d8e5c7f775f7d771b7778"
+    },
+    {
+      "id": "billing-currency-label-v03",
+      "decision": "approved",
+      "sha256": "3d5c238bbf51ac89f8422c74daddacf75c924bbca4a74d473577c76afa429e9a"
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v03",
+      "decision": "approved",
+      "sha256": "d187bbaea6aaa21b77fb155a1503641f36a7114a5e323c93dd39d2a3ee7278c7"
+    },
+    {
+      "id": "integrations-stripe-sync-v03",
+      "decision": "approved",
+      "sha256": "af3d801c59168eea1ff2cb6a3f78ef3f1452c0290782d745b5e2513d4a663978"
+    },
+    {
+      "id": "unknown-generic-error-v03",
+      "decision": "approved",
+      "sha256": "44d2e456ce24b2d57bf061b58a7a7b15aca0f1917daa36e4edf835eeb5070508"
+    },
+    {
+      "id": "authentication-mfa-qr-v04",
+      "decision": "approved",
+      "sha256": "59181a64486707525fda62187dd0d7eb37dbac1bb35ca4b98d9b74d1a2b767c9"
+    },
+    {
+      "id": "billing-currency-label-v04",
+      "decision": "approved",
+      "sha256": "b62aa65e38bb5f6e6ffb5c911b1ce62fc9c31bc78a4f8c135700531fe00eb4b2"
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v04",
+      "decision": "approved",
+      "sha256": "9a57d411f29fc05ddfd2575528f48f151ffe4ca912cf409a16dd03dbd59ef096"
+    },
+    {
+      "id": "integrations-stripe-sync-v04",
+      "decision": "approved",
+      "sha256": "be57fec38e90b8c7609fba82e1d9598ae3279e2e437145dfffa6cc5d3f8fb339"
+    },
+    {
+      "id": "unknown-generic-error-v04",
+      "decision": "approved",
+      "sha256": "028697fabcbddc167bc6dfa010e637b435a0e82449ab6d309308f1603a56f1bb"
+    },
+    {
+      "id": "authentication-mfa-qr-v05",
+      "decision": "approved",
+      "sha256": "33c30c3b4c3b673592ce84ce45b03ea96e5b35c35c85efebdd83cafe4efe4398"
+    },
+    {
+      "id": "billing-currency-label-v05",
+      "decision": "approved",
+      "sha256": "431274284a3e793b5cbea373229ba9074083893d091095a31240588d28cd9163"
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v05",
+      "decision": "approved",
+      "sha256": "973453e1a0ffca9712ff380daed98964e6109058e03e4abba53576b0c3d9a016"
+    },
+    {
+      "id": "integrations-stripe-sync-v05",
+      "decision": "approved",
+      "sha256": "c7779cbd451c9cc23922e93eef0f08499e7b66ceafb6fe4875b1b970ac0ed2e0"
+    },
+    {
+      "id": "unknown-generic-error-v05",
+      "decision": "approved",
+      "sha256": "4a59dced13f0ecb69de90c598fc12b4919b7e09592917dc188fdb9604218b475"
+    },
+    {
+      "id": "authentication-mfa-qr-v06",
+      "decision": "approved",
+      "sha256": "75f1ad46ee7de96109566f46670e37c0a7b4fb506e495c050958e632d4666dbc"
+    },
+    {
+      "id": "billing-currency-label-v06",
+      "decision": "approved",
+      "sha256": "c7c6d886e6517bcf5a28b08782e702cf61a25e53163019e53b8597072d59dc09"
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v06",
+      "decision": "approved",
+      "sha256": "16803ebd8c35e4a93b1c583e80ad8e56a7bb4ec8464297e8b5d230ab6e66a567"
+    },
+    {
+      "id": "integrations-stripe-sync-v06",
+      "decision": "approved",
+      "sha256": "32cbace2f47b3e41e57f34477eb40ebb4df68686fd6f9cd08d67cd3b908b545f"
+    },
+    {
+      "id": "unknown-generic-error-v06",
+      "decision": "approved",
+      "sha256": "f2d93663f6a1cbb57749aa9779da6a72a8b477782bddba7858f93fafa13d892f"
+    },
+    {
+      "id": "authentication-mfa-qr-v07",
+      "decision": "approved",
+      "sha256": "ffe7971539658965b72902d6d0055ce776dcf96faebd0f1de149c99cb8ce29e5"
+    },
+    {
+      "id": "billing-currency-label-v07",
+      "decision": "approved",
+      "sha256": "7964e1deb71f92a1c8b0744935f9f6462f7c763e091a7475c958cdae5a622270"
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v07",
+      "decision": "approved",
+      "sha256": "54e82e4de11ed54dd148bf958008f10a71c4b9f252b736992e6721d0fbab0c37"
+    },
+    {
+      "id": "integrations-stripe-sync-v07",
+      "decision": "approved",
+      "sha256": "cabca823ef5c6dbe990b92912a2bc675d06320b09cacb3801b807584ea8a4eac"
+    },
+    {
+      "id": "unknown-generic-error-v07",
+      "decision": "approved",
+      "sha256": "e4dcac8e1b59e1d8370fd4befa1630c0edceb18b8dc978a9e26d9fbd21cb1aed"
+    },
+    {
+      "id": "authentication-mfa-qr-v08",
+      "decision": "approved",
+      "sha256": "3326535b91ee025e51e37a0e502b52ee1b987b272729c9272b76f133d6387f9c"
+    },
+    {
+      "id": "billing-currency-label-v08",
+      "decision": "approved",
+      "sha256": "fc087599f7c3ba1a9fe72ee04da0b463464ead80a38bb198f1ad6dffd0586707"
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v08",
+      "decision": "approved",
+      "sha256": "fc82668459b9c21289708f9a2355721de9d2957b71b3f6ab23362243c2cb0e87"
+    },
+    {
+      "id": "integrations-stripe-sync-v08",
+      "decision": "approved",
+      "sha256": "e8bf2d0e477d6269f1144e6660c36fad7020b476149d2de9ec1c803df362a7d1"
+    },
+    {
+      "id": "unknown-generic-error-v08",
+      "decision": "approved",
+      "sha256": "a81c1992f0bbb5df5883e60875ff5464d205f491298dbf371662af618bc0e34a"
+    },
+    {
+      "id": "authentication-mfa-qr-v09",
+      "decision": "approved",
+      "sha256": "93f02f0d428b67a87b9837fd5dc9b3f52377db5e4024ea6493fa963e44ba043f"
+    },
+    {
+      "id": "billing-currency-label-v09",
+      "decision": "approved",
+      "sha256": "19e18546d9251112b7ad5a016e4ffc7d7f9af058c93c8227d05528f65ff57777"
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v09",
+      "decision": "approved",
+      "sha256": "84e07fc489b6f4ac4bd0b4637e689d8db04cb192e576e556d2c6aa334fa7a9c7"
+    },
+    {
+      "id": "integrations-stripe-sync-v09",
+      "decision": "approved",
+      "sha256": "e77d7bcc8b6c089fa0aff141d627e558e703e95fbb3892e5c7b1a78308d06e23"
+    },
+    {
+      "id": "unknown-generic-error-v09",
+      "decision": "approved",
+      "sha256": "6c9c72971281fd8d2bd0fcbaa0e104871ecbaf94fe8397e73438457733401526"
+    },
+    {
+      "id": "authentication-mfa-qr-v10",
+      "decision": "approved",
+      "sha256": "f6d0fef2cb3ababc125a2ee8500616b176cc93cb7394a1c4604b328b2972e6b9"
+    },
+    {
+      "id": "billing-currency-label-v10",
+      "decision": "approved",
+      "sha256": "b8e7b43cc1f67c42f570f49188a5802fab667b303166eb67d12504dbb7a3ccce"
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v10",
+      "decision": "approved",
+      "sha256": "06f1b24eed9e123394cd1708bfc6f52cba830012323054a92fd4bdd58dd9ada7"
+    },
+    {
+      "id": "integrations-stripe-sync-v10",
+      "decision": "approved",
+      "sha256": "e7f92feebaf8c78e0c3912e133790566f652fdc2d88b8853c6de8bef197680eb"
+    },
+    {
+      "id": "unknown-generic-error-v10",
+      "decision": "approved",
+      "sha256": "c3ed6cb23654cf4d7f96400cdd908dbc9c2f7a440890cdc3ebab1d866b4bb3e3"
+    },
+    {
+      "id": "authentication-google-signin-v01",
+      "decision": "approved",
+      "sha256": "53072164fc3d2b7a8067e445e4d55638c9076cd97b67925f47ca6056565f1cf7"
+    },
+    {
+      "id": "billing-invoice-filter-v01",
+      "decision": "approved",
+      "sha256": "3afb6618617b07040b3e601ddb290ab4cc0f608e228cbab9c0226f7fa6764c0a"
+    },
+    {
+      "id": "dashboard-empty-chart-v01",
+      "decision": "approved",
+      "sha256": "b822ef3ddfbfe9a622c95e92c7aa5988a31744bb176c5bf0f3f962fe0affe410"
+    },
+    {
+      "id": "integrations-save-settings-v01",
+      "decision": "approved",
+      "sha256": "0e938e21b057312fc23679395aaf0e6536f97bf7384c1162308c12c6881efcca"
+    },
+    {
+      "id": "unknown-loading-page-v01",
+      "decision": "approved",
+      "sha256": "ece8112e653a7495a844693b409ee340835a36c5db38e472be9fd9e9d249fd0e"
+    },
+    {
+      "id": "authentication-google-signin-v02",
+      "decision": "approved",
+      "sha256": "7deb126fb3ddc599d27f2b82cdae337a3baade8a202e55fff23a100f13d68f2d"
+    },
+    {
+      "id": "billing-invoice-filter-v02",
+      "decision": "approved",
+      "sha256": "b5bb6f73b149f015ecd6cad0763e754ad5de7e08e65716108ccb69fb40e282ff"
+    },
+    {
+      "id": "dashboard-empty-chart-v02",
+      "decision": "approved",
+      "sha256": "6f29e5be98ade9d44cfb4ec6942689b4fcc6c214b39adc1522f52978e2228873"
+    },
+    {
+      "id": "integrations-save-settings-v02",
+      "decision": "approved",
+      "sha256": "48bb033d6947282234fecebb980d7e32cbadcf19937d5637126df8aed79cea5d"
+    },
+    {
+      "id": "unknown-loading-page-v02",
+      "decision": "approved",
+      "sha256": "a0a7133e276e1a35e27b41b4ea5e7ded06d841f1d3ab76750253f6360a2b7f3b"
+    },
+    {
+      "id": "authentication-google-signin-v03",
+      "decision": "approved",
+      "sha256": "cefbedc28568ef73bfbdf6035185ea2abe4020699e5bc78c65bdb233aea5cc85"
+    },
+    {
+      "id": "billing-invoice-filter-v03",
+      "decision": "approved",
+      "sha256": "97bddf30efc6dacb5b30e37fe12103a42085f1b1443ae325aaf96997ede6a0f0"
+    },
+    {
+      "id": "dashboard-empty-chart-v03",
+      "decision": "approved",
+      "sha256": "824e7aa33335530e74dab9924220aa5f8c2a818388d21ed4fe1ea8752a413eab"
+    },
+    {
+      "id": "integrations-save-settings-v03",
+      "decision": "approved",
+      "sha256": "491d1f9cfd7975e58350f26d00ecf108ad3f8093031bb7ed0a6f75d0fbaf0651"
+    },
+    {
+      "id": "unknown-loading-page-v03",
+      "decision": "approved",
+      "sha256": "ac940435621e7fff1b9ae5888acf34412d0d2305593ba2e047d296d5c9e50615"
+    },
+    {
+      "id": "authentication-google-signin-v04",
+      "decision": "approved",
+      "sha256": "eea8114e0f23c50bb4cada1bba44c7280b635893ca3b7adbd7db4fd260aea09f"
+    },
+    {
+      "id": "billing-invoice-filter-v04",
+      "decision": "approved",
+      "sha256": "97cf726a710f6ee24cb9a5bf75acaa25d46367eb39328c4442e4fadddcd1e110"
+    },
+    {
+      "id": "dashboard-empty-chart-v04",
+      "decision": "approved",
+      "sha256": "dc9b8f567d0ebc5d150d1d5d867a3a2ce3bdb87f58d0409501ec2d38c9188663"
+    },
+    {
+      "id": "integrations-save-settings-v04",
+      "decision": "approved",
+      "sha256": "0fc8764d8a1ef03d794aedbb580beec4966983075f2300598c83098f84f312ae"
+    },
+    {
+      "id": "unknown-loading-page-v04",
+      "decision": "approved",
+      "sha256": "f2736e6e9b29b55baa1763391e7afef26476d6a063ed4142f5142c41ffb5215b"
+    },
+    {
+      "id": "authentication-google-signin-v05",
+      "decision": "approved",
+      "sha256": "2d5e07e8f4c1d17e3762f417265abb742ba53895674ebe825a7ad051cf3f881f"
+    },
+    {
+      "id": "billing-invoice-filter-v05",
+      "decision": "approved",
+      "sha256": "e0abe14e67b86e1ed0312129acbd2cee5c044644692f90311d4e180b3c9de018"
+    },
+    {
+      "id": "dashboard-empty-chart-v05",
+      "decision": "approved",
+      "sha256": "f4464c5068cf1a300ccc1aa166119be7f533a19b8a3630ab5a5b3c896c986298"
+    },
+    {
+      "id": "integrations-save-settings-v05",
+      "decision": "approved",
+      "sha256": "7e5d0eacda67c8568e071f7bd9bccfe4fd1823e1ba90b84691e11dee4df6cfc0"
+    },
+    {
+      "id": "unknown-loading-page-v05",
+      "decision": "approved",
+      "sha256": "b95b88220fde90f4328bc2821b05c9ee33fc4e719e59d913868898b18298657b"
+    },
+    {
+      "id": "authentication-google-signin-v06",
+      "decision": "approved",
+      "sha256": "6bc294955bcd14b643904a512e3a4078a92f0ccd1963a02e8342adab8c8dfb0c"
+    },
+    {
+      "id": "billing-invoice-filter-v06",
+      "decision": "approved",
+      "sha256": "c798407a07603fa313a061a2e8b2255583d9d945213de1ec739dedac3443ef74"
+    },
+    {
+      "id": "dashboard-empty-chart-v06",
+      "decision": "approved",
+      "sha256": "679db2876c6e268df068ed5dec630b76e3d9daa867dee6f714672f4807a1adc2"
+    },
+    {
+      "id": "integrations-save-settings-v06",
+      "decision": "approved",
+      "sha256": "e87d1499c42c0bd21774673afba02f6b954e482e9055c01dfd32c08bbda92a3d"
+    },
+    {
+      "id": "unknown-loading-page-v06",
+      "decision": "approved",
+      "sha256": "623226b8698172e298726354575a1eb0b1c665f96605ed17c56ea90a033d7c0e"
+    },
+    {
+      "id": "authentication-google-signin-v07",
+      "decision": "approved",
+      "sha256": "35098f34ca19e4a400420d44ea05833a3c39bb008e95fdab6d8d264c5c45a8fe"
+    },
+    {
+      "id": "billing-invoice-filter-v07",
+      "decision": "approved",
+      "sha256": "4e17d82d4d1505f94c74a1ae08b654cdbad9be30a7c158cfc07e39d991d28bce"
+    },
+    {
+      "id": "dashboard-empty-chart-v07",
+      "decision": "approved",
+      "sha256": "29ec99541193bcfb6d79aff2eceed58e7b4fd75a9eb00ca4057042c225c48fb1"
+    },
+    {
+      "id": "integrations-save-settings-v07",
+      "decision": "approved",
+      "sha256": "6636bca53b8a77ed779088fc56843e7637e71fab03ce0df9097fab14fe0b2e99"
+    },
+    {
+      "id": "unknown-loading-page-v07",
+      "decision": "approved",
+      "sha256": "7fc79ef0a9f9e0422f734de62e84fa8ad810aea0b1208d2faa7299227c25701d"
+    },
+    {
+      "id": "authentication-google-signin-v08",
+      "decision": "approved",
+      "sha256": "0b17e63f33cf45c97db820f6669aecf2c572f1035138536c8d3f445aec8a291b"
+    },
+    {
+      "id": "billing-invoice-filter-v08",
+      "decision": "approved",
+      "sha256": "a37162156b529fb1e5ce5cd56c58aa198a482279a5fd0fd5b2fe255efd400033"
+    },
+    {
+      "id": "dashboard-empty-chart-v08",
+      "decision": "approved",
+      "sha256": "bfb6dcf5ec1a366f77d8f95d7a950ac1f7de42a4661b0a82f8c4cad0d6283002"
+    },
+    {
+      "id": "integrations-save-settings-v08",
+      "decision": "approved",
+      "sha256": "3793ed7df7b47a8a3919502025dd2b5406d4a92487382ecd1fdeec1745b352a7"
+    },
+    {
+      "id": "unknown-loading-page-v08",
+      "decision": "approved",
+      "sha256": "af99054d2d098cb9cd4ef850f52bd69c521906279e93104b8e13608ce02571de"
+    },
+    {
+      "id": "authentication-google-signin-v09",
+      "decision": "approved",
+      "sha256": "258e07580977be0ed50b9645d8c036f3fcf45ef0dbaa4f05a4b586bf80b6dc63"
+    },
+    {
+      "id": "billing-invoice-filter-v09",
+      "decision": "approved",
+      "sha256": "4a2eaa706b4dad37fb07e3c32c9fe711777f9ca50c01cff03fa65be3ea8e4473"
+    },
+    {
+      "id": "dashboard-empty-chart-v09",
+      "decision": "approved",
+      "sha256": "1d72ddc95641614ec6de9e4cd8aa9d86092c694ba7a50dc29ddac98164e8c2db"
+    },
+    {
+      "id": "integrations-save-settings-v09",
+      "decision": "approved",
+      "sha256": "2d6656bfb123c7f07cbda2b7eb16ab6f390b5b5ca0bdde965ef27565ccd84153"
+    },
+    {
+      "id": "unknown-loading-page-v09",
+      "decision": "approved",
+      "sha256": "054b11020b536af20d01a4af2f9828c5bf004a4343b4e003871bf038c3f91272"
+    },
+    {
+      "id": "authentication-google-signin-v10",
+      "decision": "approved",
+      "sha256": "731f99b031bc9b20b6b53ea1e6f6a28484417d2c8f0b4fa6f30a66ff7e6ce49d"
+    },
+    {
+      "id": "billing-invoice-filter-v10",
+      "decision": "approved",
+      "sha256": "5740b21390cc73b9e42149ab8ec379a8f22ed7e17e1f04f5b372fa2637ac7096"
+    },
+    {
+      "id": "dashboard-empty-chart-v10",
+      "decision": "approved",
+      "sha256": "c3bddd8cdda24b68a931a92b1a3deef1d1bbb5432280a736f21638ddd9d7d69a"
+    },
+    {
+      "id": "integrations-save-settings-v10",
+      "decision": "approved",
+      "sha256": "e967437cdeccdb497096aafe3d3f65565ca300c2ea76a57fe23d10df170855bd"
+    },
+    {
+      "id": "unknown-loading-page-v10",
+      "decision": "approved",
+      "sha256": "e92f6af7cf1981f798fc3426e00f9caaa8e7f633a2c67bfee12011d80b24ba12"
+    },
+    {
+      "id": "authentication-invite-link-v01",
+      "decision": "approved",
+      "sha256": "6e6b32ab1dca9c847b103970cc2226f57cdccc50dc171c2606bd1c4bfda57700"
+    },
+    {
+      "id": "billing-invoice-draft-v01",
+      "decision": "approved",
+      "sha256": "5aba00ce1bad34b4c79f2f1dde9f26685231f3f1c20233011e52ecd61479ad7e"
+    },
+    {
+      "id": "dashboard-date-filter-v01",
+      "decision": "approved",
+      "sha256": "8cc5162e36e9becfd1c42fd2eeb32eea8a38e8359e87c5983887a5e4df3bf3c9"
+    },
+    {
+      "id": "integrations-connection-status-v01",
+      "decision": "approved",
+      "sha256": "46b3566377793b5794068895e591bc9d8516d3aa9a4c3e13af51ac15c539f3de"
+    },
+    {
+      "id": "unknown-unsaved-changes-v01",
+      "decision": "approved",
+      "sha256": "7b060b92eeb8186701576cc0a8e84a849269b2f67797a0338e73609b120ed0f7"
+    },
+    {
+      "id": "authentication-invite-link-v02",
+      "decision": "approved",
+      "sha256": "7e962e6bc33cd45d3df53c9554db20410dfd42d20a2629f76054dc11f0b297f2"
+    },
+    {
+      "id": "billing-invoice-draft-v02",
+      "decision": "approved",
+      "sha256": "0385fd5d51577b46e81fe4da562a1f5c203163fe4daca459207f34b30069d3a0"
+    },
+    {
+      "id": "dashboard-date-filter-v02",
+      "decision": "approved",
+      "sha256": "e3727c939f3cfec2d7a5aa36149f3bc9505c22f4220ad928bd47cb481b9b84c0"
+    },
+    {
+      "id": "integrations-connection-status-v02",
+      "decision": "approved",
+      "sha256": "bcc59ed8f9a45d2cd718f346e777f5f26d913a14a9110a4e654ae7871c8f1204"
+    },
+    {
+      "id": "unknown-unsaved-changes-v02",
+      "decision": "approved",
+      "sha256": "3451a3ed39be09d3d1bd4487aafb8d422433331359011c72de57c89e57d4e692"
+    },
+    {
+      "id": "authentication-invite-link-v03",
+      "decision": "approved",
+      "sha256": "46ea4026f697be815a3b6fff665a145d060e8e2be1e8d1f4697d5caf01533cff"
+    },
+    {
+      "id": "billing-invoice-draft-v03",
+      "decision": "approved",
+      "sha256": "507e4c4c3329593b2ea711015bd8b65ac3faed5f0b4bd6e3cd5a345c4bf1eaf4"
+    },
+    {
+      "id": "dashboard-date-filter-v03",
+      "decision": "approved",
+      "sha256": "674ada8fb4f8666395f95847cc299b3f0818cf76377f18065b1f6c7dca6b3ef0"
+    },
+    {
+      "id": "integrations-connection-status-v03",
+      "decision": "approved",
+      "sha256": "a13d32b9babb7ec7896e41ce81e9dfd4584524a07048590e157c0f7c8c4d9e53"
+    },
+    {
+      "id": "unknown-unsaved-changes-v03",
+      "decision": "approved",
+      "sha256": "6ce3323c7dc0bb8cc9a76d97fe35fa38428e34dc38ae84066d0a27f810c81dfc"
+    },
+    {
+      "id": "authentication-invite-link-v04",
+      "decision": "approved",
+      "sha256": "3e016635a82aed4748b8f224fe1050c7d567db9d6ea94993f3864a9d7ef59317"
+    },
+    {
+      "id": "billing-invoice-draft-v04",
+      "decision": "approved",
+      "sha256": "e71daa014e288814fbe97fbab0a02768e0330eecd353a39c6eedcd1fb9ebaad6"
+    },
+    {
+      "id": "dashboard-date-filter-v04",
+      "decision": "approved",
+      "sha256": "3a39bba94b6d6c9d97fd5d6f796e1445799ce535d96f4354afe478718454733f"
+    },
+    {
+      "id": "integrations-connection-status-v04",
+      "decision": "approved",
+      "sha256": "42c9caa2830c53dcdb71aec57a4d99c2df4554f1bd01b622f34692bc12608dd7"
+    },
+    {
+      "id": "unknown-unsaved-changes-v04",
+      "decision": "approved",
+      "sha256": "ee8071a1d53818abd3deb8a818d7748aa5379686960fc54b6a7a37f44fc28d97"
+    },
+    {
+      "id": "authentication-invite-link-v05",
+      "decision": "approved",
+      "sha256": "9ce38920458219b683122e5a51305c8643fd6725f6fadb5263e83edcc2af0621"
+    },
+    {
+      "id": "billing-invoice-draft-v05",
+      "decision": "approved",
+      "sha256": "68af37eb1ba31ac030a89dd683d480452d5479b8853eb73780e08873cd1e4aa4"
+    },
+    {
+      "id": "dashboard-date-filter-v05",
+      "decision": "approved",
+      "sha256": "27d7896073ab2a0f83855072e5853b5fef03d755bd4fe3c3c65c7ea4e0217818"
+    },
+    {
+      "id": "integrations-connection-status-v05",
+      "decision": "approved",
+      "sha256": "15f8b9d19cd2e4436c498277585e1fd94dd861431d618c58df5acf34351948b0"
+    },
+    {
+      "id": "unknown-unsaved-changes-v05",
+      "decision": "approved",
+      "sha256": "a6b5734b2357e9887e2721b2d474f19c5a3d67f6edd3acf1c596b216806d3667"
+    },
+    {
+      "id": "authentication-invite-link-v06",
+      "decision": "approved",
+      "sha256": "fb4b88b40d410919efb93a307ac47442e2c5a617fcce9b0652558a6f8d428005"
+    },
+    {
+      "id": "billing-invoice-draft-v06",
+      "decision": "approved",
+      "sha256": "48616df21f544927a108d6b58db246868f1d664213ab068eacfb0232a65247e6"
+    },
+    {
+      "id": "dashboard-date-filter-v06",
+      "decision": "approved",
+      "sha256": "3c11b710f1bf588299fec231db220841df78ea4e9de4c715e25212d2cafba5fb"
+    },
+    {
+      "id": "integrations-connection-status-v06",
+      "decision": "approved",
+      "sha256": "fd30f632c9e8301641ec4d1351422ab044d3be1448614f1ffe20579c329f1386"
+    },
+    {
+      "id": "unknown-unsaved-changes-v06",
+      "decision": "approved",
+      "sha256": "cfd734d511b1ca0d26b5e9cbdbc3779916a596ca40468084d67ea42c7c175fd7"
+    },
+    {
+      "id": "authentication-invite-link-v07",
+      "decision": "approved",
+      "sha256": "8296abe98fc97a12e5a9bfa975d3456a725d2ac2256e0a50619491f88a8cfb71"
+    },
+    {
+      "id": "billing-invoice-draft-v07",
+      "decision": "approved",
+      "sha256": "3bec2bd384ca20a7724e6764cefecaf983470aa16858681a106664acf54deba3"
+    },
+    {
+      "id": "dashboard-date-filter-v07",
+      "decision": "approved",
+      "sha256": "4a38756e5684f1dd38bf080878bd5c17fb173b3838caf028f9b7a9699459b780"
+    },
+    {
+      "id": "integrations-connection-status-v07",
+      "decision": "approved",
+      "sha256": "a0c8729dbaf84d2f71a28d2e0a573e5048664f1009c0f9d117385ea81cf73d85"
+    },
+    {
+      "id": "unknown-unsaved-changes-v07",
+      "decision": "approved",
+      "sha256": "efe40a65b0f676fef65d000029a881f342a9d402d0de27e65025bd65bc63e0a3"
+    },
+    {
+      "id": "authentication-invite-link-v08",
+      "decision": "approved",
+      "sha256": "e9f2a5abc90cb68175e65e11176c1fb2420feecbbd0ab2637ceaa90d81095857"
+    },
+    {
+      "id": "billing-invoice-draft-v08",
+      "decision": "approved",
+      "sha256": "edeea32e7748f43b868c86af74b6331b0083223fe272ebd76a3d5b9e126e4a02"
+    },
+    {
+      "id": "dashboard-date-filter-v08",
+      "decision": "approved",
+      "sha256": "f46d225997b4808d06055642cd94b885d1120115ec25f1d20191d0aab9015ca0"
+    },
+    {
+      "id": "integrations-connection-status-v08",
+      "decision": "approved",
+      "sha256": "cbb2b2a8eeb1047fe8f56ef9e046f454c15a57bc26978fb1103c9050afe1adcf"
+    },
+    {
+      "id": "unknown-unsaved-changes-v08",
+      "decision": "approved",
+      "sha256": "33e2c664dfdbb9b73916dc1ae3a70fa26d7b9d5877d8c2ef998aeba13003d3a3"
+    },
+    {
+      "id": "authentication-invite-link-v09",
+      "decision": "approved",
+      "sha256": "03c8695159ad4ed26c73f89278c5b84f5dd8471ec1362723d884fba4d9a6066a"
+    },
+    {
+      "id": "billing-invoice-draft-v09",
+      "decision": "approved",
+      "sha256": "767eef175356bb168ce353afc3ee9e2f057fa5df706e966838a2e9abf1c9c0b7"
+    },
+    {
+      "id": "dashboard-date-filter-v09",
+      "decision": "approved",
+      "sha256": "98b584c6a2200ee83fa0bbe63a42c4c8a8628068c2de717c4a1e8f23ab0c6125"
+    },
+    {
+      "id": "integrations-connection-status-v09",
+      "decision": "approved",
+      "sha256": "c1a9c01242945764edbb5a2b1a84be316e39ef3328da31c7a49bca9a9c978d73"
+    },
+    {
+      "id": "unknown-unsaved-changes-v09",
+      "decision": "approved",
+      "sha256": "ad743f1ae55b2139bb8ae172411338a07f266063a60939246efbd41cb3494535"
+    },
+    {
+      "id": "authentication-invite-link-v10",
+      "decision": "approved",
+      "sha256": "8c828c297cb24b3268fd5a6405c8151b007d9b0e4efc2d035711a47e8a9f59b0"
+    },
+    {
+      "id": "billing-invoice-draft-v10",
+      "decision": "approved",
+      "sha256": "54a7a7a04d1c2d5862fb092677ff0c83b0142598e773a45615db643db541d878"
+    },
+    {
+      "id": "dashboard-date-filter-v10",
+      "decision": "approved",
+      "sha256": "46ebe886e2ab0a786409211943417ad7f81f428b50ff00bef3ec2c852a19bac9"
+    },
+    {
+      "id": "integrations-connection-status-v10",
+      "decision": "approved",
+      "sha256": "222b71255986e566e2768ad000d8c1b9f5f8f350b703d3059e54ab0040251fc4"
+    },
+    {
+      "id": "unknown-unsaved-changes-v10",
+      "decision": "approved",
+      "sha256": "e636be267f878b7bf7c6148207ca17d4baf00fe649cee989aa7cdda50816792b"
+    },
+    {
+      "id": "authentication-account-email-v01",
+      "decision": "approved",
+      "sha256": "030317a1e1f513ca5c5b14f68fde7985b8d70af5b4ef3c42decc20693f5b776b"
+    },
+    {
+      "id": "billing-invoice-email-v01",
+      "decision": "approved",
+      "sha256": "2a0b60cef2ca02188b1620c385bea039ffff61d9768d63bb7f5ab9b0928c27cc"
+    },
+    {
+      "id": "dashboard-refresh-button-v01",
+      "decision": "approved",
+      "sha256": "1b7f9cfd1297e584616b04c6f73257858cedc3ab9a5c6a2df8bd843f7d4bb4b2"
+    },
+    {
+      "id": "integrations-sheets-stale-v01",
+      "decision": "approved",
+      "sha256": "38ea94f44aa8161f09f21823785586efaab464ef483694483375c5eaf352bbfc"
+    },
+    {
+      "id": "unknown-unresponsive-button-v01",
+      "decision": "approved",
+      "sha256": "5f9942dfd045272c3feb38b1c0306dbd4061fdeea26c0902202ddcd73f382361"
+    },
+    {
+      "id": "authentication-account-email-v02",
+      "decision": "approved",
+      "sha256": "7670db7f7faa40c3dc37b075f08440c30efd3eee94f656f9391357840ebbbdfe"
+    },
+    {
+      "id": "billing-invoice-email-v02",
+      "decision": "approved",
+      "sha256": "0cb4aec9522aff5333e412323d0baf4ce89f0fd5d6ed3c777ace4404bc8c462f"
+    },
+    {
+      "id": "dashboard-refresh-button-v02",
+      "decision": "approved",
+      "sha256": "e9f2ca9016098e5de1d0cc9b5704cf9a3952f42b2c11a5da2f8bfbafce943e93"
+    },
+    {
+      "id": "integrations-sheets-stale-v02",
+      "decision": "approved",
+      "sha256": "459716aed08690306b248ff1a2b104f9203beb287ff1fe0990b70c69f96f0f1b"
+    },
+    {
+      "id": "unknown-unresponsive-button-v02",
+      "decision": "approved",
+      "sha256": "c63d6c916deded615cb92cf5593b776b26fb6fe624779a87e26e4e045d60550c"
+    },
+    {
+      "id": "authentication-account-email-v03",
+      "decision": "approved",
+      "sha256": "011ecd9c2fcca1552014e0cec6757accb1a848df1b804bd3abc2501c8871fe86"
+    },
+    {
+      "id": "billing-invoice-email-v03",
+      "decision": "approved",
+      "sha256": "f2390c1a21c7fb4e908fffe261d1bc48fb6752e187ce323d22248d7e48a3bc23"
+    },
+    {
+      "id": "dashboard-refresh-button-v03",
+      "decision": "approved",
+      "sha256": "a9fb94cb8399721b257267e4e9803a8a915dfea3e90b6cf0cf73d9104bf71289"
+    },
+    {
+      "id": "integrations-sheets-stale-v03",
+      "decision": "approved",
+      "sha256": "173bcf3187a4fd4596e965031375660ed990e45d2b27cf1db88ef07d75a940a4"
+    },
+    {
+      "id": "unknown-unresponsive-button-v03",
+      "decision": "approved",
+      "sha256": "d547f6484eca535e84e835a3e7bc16bf0039909a09107fbbdbb817ebffea3df3"
+    },
+    {
+      "id": "authentication-account-email-v04",
+      "decision": "approved",
+      "sha256": "03d6d68bc8b45f245d0c08338c71821aa62e05c141a9f27d4316ab9f6e45f693"
+    },
+    {
+      "id": "billing-invoice-email-v04",
+      "decision": "approved",
+      "sha256": "80db4547a98f22bc8e2cf386a747753f5b889fb61278b8280c7b828677a21825"
+    },
+    {
+      "id": "dashboard-refresh-button-v04",
+      "decision": "approved",
+      "sha256": "1502bed6357b575f06a1492dc48054f51e1077d9699113ff1cf996d9fe2ef9f3"
+    },
+    {
+      "id": "integrations-sheets-stale-v04",
+      "decision": "approved",
+      "sha256": "cb3405e86612bedb125bb305418e025372813c4f4ba78dbcd95f87b636366547"
+    },
+    {
+      "id": "unknown-unresponsive-button-v04",
+      "decision": "approved",
+      "sha256": "1495204e647b955132da5db228086e8c47fe4d2e92289d1b2d237b78496b8d84"
+    },
+    {
+      "id": "authentication-account-email-v05",
+      "decision": "approved",
+      "sha256": "8abf5ae2ed12310d926b2f865befdc558da78f7d1ff06c39ba3e4db90cc2c03f"
+    },
+    {
+      "id": "billing-invoice-email-v05",
+      "decision": "approved",
+      "sha256": "2dbbb093d400e064f8640aa1071505e0f4f25580dd44a9d02112af41b746b2b9"
+    },
+    {
+      "id": "dashboard-refresh-button-v05",
+      "decision": "approved",
+      "sha256": "bc561d5828e1338fe69504a17e38f137fa5c88aa208e2638d9b4851dd323e517"
+    },
+    {
+      "id": "integrations-sheets-stale-v05",
+      "decision": "approved",
+      "sha256": "67f54db415ecfe37776775ff7c4f1bc7f149311d7c34fcd0c0cbe5697b288b5c"
+    },
+    {
+      "id": "unknown-unresponsive-button-v05",
+      "decision": "approved",
+      "sha256": "aced40824ac23aafd47de2e6b9a96c85c3488d2eb9d50dd846c87623d3b94e45"
+    },
+    {
+      "id": "authentication-account-email-v06",
+      "decision": "approved",
+      "sha256": "82819044a33433b1b9886dd71758c273d94e8a44a496e4f63582549771236102"
+    },
+    {
+      "id": "billing-invoice-email-v06",
+      "decision": "approved",
+      "sha256": "280f57ae7e3224afe3dcc0ecf7f9de602b0f4f380ade919de1d206ed964d8901"
+    },
+    {
+      "id": "dashboard-refresh-button-v06",
+      "decision": "approved",
+      "sha256": "95f553cbee22bae0989ed6fd4717721e63ecc70f810b4d13441751f4487b14ca"
+    },
+    {
+      "id": "integrations-sheets-stale-v06",
+      "decision": "approved",
+      "sha256": "e0a395558c73c30f65888cfeef46705049df1d0b5cc8158902a2eac697a309d3"
+    },
+    {
+      "id": "unknown-unresponsive-button-v06",
+      "decision": "approved",
+      "sha256": "f06b7dc12363a7b1bb7f8fa891d2813f21a57dbd2af5a442c223957f0519a662"
+    },
+    {
+      "id": "authentication-account-email-v07",
+      "decision": "approved",
+      "sha256": "b478114e006be927668c0ed37c506edbbfbdab1d880d9fd3a3c89610ba688982"
+    },
+    {
+      "id": "billing-invoice-email-v07",
+      "decision": "approved",
+      "sha256": "83bd22d8af8585625b399164b1ce9c901f49a7c41bdf30b1b5149fb2a0859664"
+    },
+    {
+      "id": "dashboard-refresh-button-v07",
+      "decision": "approved",
+      "sha256": "4288321f12f68affe6aad16977dd9443d2a5b8d7a38205791780e966bb20cef2"
+    },
+    {
+      "id": "integrations-sheets-stale-v07",
+      "decision": "approved",
+      "sha256": "a07ca0a86bb2d7dcddb4ce171609edd263a8295088d3db3bdca42c8eb7c9195c"
+    },
+    {
+      "id": "unknown-unresponsive-button-v07",
+      "decision": "approved",
+      "sha256": "1a38f07cf9d10e7593ae92fa1322857414b499c37bb4b66397e79ebeceeafe69"
+    },
+    {
+      "id": "authentication-account-email-v08",
+      "decision": "approved",
+      "sha256": "aa576556299720f82569f3a8bfe0b440e9a7614884eb267927d25e9e9058d7a3"
+    },
+    {
+      "id": "billing-invoice-email-v08",
+      "decision": "approved",
+      "sha256": "32f0c14baf4a06b967a616ebe246d38d0de072a2e6dd1312f24e8d38a3e908dc"
+    },
+    {
+      "id": "dashboard-refresh-button-v08",
+      "decision": "approved",
+      "sha256": "3f53d0e5dcb9c9ec4f43c347fef7e962528f86edfc2bb04b9d2efe7095784c3c"
+    },
+    {
+      "id": "integrations-sheets-stale-v08",
+      "decision": "approved",
+      "sha256": "ece7c1d18cc4788b4517305b9ec2590f1cbad4d9dfbdd98953727eae18c56848"
+    },
+    {
+      "id": "unknown-unresponsive-button-v08",
+      "decision": "approved",
+      "sha256": "c510107b812f2d59eab7497cf44840790d11ff9a7bd463ade2eb370f7c068134"
+    },
+    {
+      "id": "authentication-account-email-v09",
+      "decision": "approved",
+      "sha256": "f457b1864ec60e37d344d33905d97e30ce4e895a456843b2720a5905f50c4d06"
+    },
+    {
+      "id": "billing-invoice-email-v09",
+      "decision": "approved",
+      "sha256": "9bc1696d65cd6a5feca093bb94576362429f42c1a0257895d3e48857294a0ffa"
+    },
+    {
+      "id": "dashboard-refresh-button-v09",
+      "decision": "approved",
+      "sha256": "d3e118ea123243a55b946eb90c90765677ef9c3a96a8b5a60b0adbd3b1036f4e"
+    },
+    {
+      "id": "integrations-sheets-stale-v09",
+      "decision": "approved",
+      "sha256": "b9dd4d548d39feabb8a42840c1553ee223ee387c5c384cbba51c52bb5f4772af"
+    },
+    {
+      "id": "unknown-unresponsive-button-v09",
+      "decision": "approved",
+      "sha256": "509dd6f8dcec916ae7d8245536b2538ff902d44a1cff17ee0bf3b5d5211ac1aa"
+    },
+    {
+      "id": "authentication-account-email-v10",
+      "decision": "approved",
+      "sha256": "d105e6d4e6ad2b256b9228e90b26ef5868bd4bee00e39585f4f04b06d2fe99c5"
+    },
+    {
+      "id": "billing-invoice-email-v10",
+      "decision": "approved",
+      "sha256": "595bfcfc4a04aafb1bf802bca6f12ce7c271b23322f1c353f62fa89e53400d2e"
+    },
+    {
+      "id": "dashboard-refresh-button-v10",
+      "decision": "approved",
+      "sha256": "268429cfd88a3cf17ade466eab2d0fe94692005d5e32b9302d3cbd97f4381884"
+    },
+    {
+      "id": "integrations-sheets-stale-v10",
+      "decision": "approved",
+      "sha256": "595d4fa559fc73a16296f784e48554fb41757c03e9ffc12d354ee482a8abb09f"
+    },
+    {
+      "id": "unknown-unresponsive-button-v10",
+      "decision": "approved",
+      "sha256": "bc8e65d6ea36e606af9f8e7f6e22c8a3b927b6fc9dba1b5d72995d93859ed355"
+    },
+    {
+      "id": "authentication-reset-link-v01",
+      "decision": "approved",
+      "sha256": "7d4afe54c7b68f42aa1e599b78cdd88dbabf4960f0af09ba63cdef70584c06cc"
+    },
+    {
+      "id": "billing-payment-pending-v01",
+      "decision": "approved",
+      "sha256": "71bcdf2962decd857fab4d9d2b9f63f7e6b697147c92256d47dcce36563f813e"
+    },
+    {
+      "id": "dashboard-saved-view-v01",
+      "decision": "approved",
+      "sha256": "a8c652ad1c3d3eb66e3631e3c0318fa1803d3a97c1edf8e3d50e30644e5b8c32"
+    },
+    {
+      "id": "integrations-duplicate-sync-v01",
+      "decision": "approved",
+      "sha256": "7d9d50e11c5cb53a91b9507543645cb0488eebc21b43a4400ea5164f2b675951"
+    },
+    {
+      "id": "unknown-unexpected-navigation-v01",
+      "decision": "approved",
+      "sha256": "4d1da80f4564672d9597332589b218c2930c96a851fbe08076c7328e5cadae8b"
+    },
+    {
+      "id": "authentication-reset-link-v02",
+      "decision": "approved",
+      "sha256": "29e0dc7991bebc05147a9c031e19d18df3b161fc2560fac5432236564f6ca72a"
+    },
+    {
+      "id": "billing-payment-pending-v02",
+      "decision": "approved",
+      "sha256": "2f733bcc4b122ce7d32097a84b4a214a8c50a6496d0da1a6325d36a17b641ea9"
+    },
+    {
+      "id": "dashboard-saved-view-v02",
+      "decision": "approved",
+      "sha256": "894125edda2158f779cc36d55e69f4cac62dc0c07b1ae5b0fe24210112bf5bdc"
+    },
+    {
+      "id": "integrations-duplicate-sync-v02",
+      "decision": "approved",
+      "sha256": "a38980e7196f73e714a6c7ed0ce52119d524e38f73185f6c60b6db1a86038d50"
+    },
+    {
+      "id": "unknown-unexpected-navigation-v02",
+      "decision": "approved",
+      "sha256": "376f2944742e4af62e869affd52140a13a104f8339a315e56e622a4ac28595bd"
+    },
+    {
+      "id": "authentication-reset-link-v03",
+      "decision": "approved",
+      "sha256": "58bc84d9b020248e746fb95d288db9e670f49ceb4e5fc5a7fa4103030da3f0ee"
+    },
+    {
+      "id": "billing-payment-pending-v03",
+      "decision": "approved",
+      "sha256": "e4b709ef818bbf1471b1c2106fb182c38fe3c93399a5f5bbfd217ab0d7ab26ce"
+    },
+    {
+      "id": "dashboard-saved-view-v03",
+      "decision": "approved",
+      "sha256": "21c86b5f91d91e8f0bd49158cc2771c1ebfa83dd3e649bd96c0542b2fceaa0da"
+    },
+    {
+      "id": "integrations-duplicate-sync-v03",
+      "decision": "approved",
+      "sha256": "13994650c5789210e12829420557f2cccf5385b3362748b77a1e2c3ca980d440"
+    },
+    {
+      "id": "unknown-unexpected-navigation-v03",
+      "decision": "approved",
+      "sha256": "775b9972525b540fc49a89b7af0bc77244b3b1ae327a08fe28870508c9183d62"
+    },
+    {
+      "id": "authentication-reset-link-v04",
+      "decision": "approved",
+      "sha256": "d430f29cbedd194b3805ed7cd0cc44cb3a2c91f6c3852928c5ff77d56221af42"
+    },
+    {
+      "id": "billing-payment-pending-v04",
+      "decision": "approved",
+      "sha256": "2cac663ae67cbb6990bedffd31305d02106285cc20bbb80817f59d68673533c0"
+    },
+    {
+      "id": "dashboard-saved-view-v04",
+      "decision": "approved",
+      "sha256": "f238bb6c7a63a3eaf026c18baa9e0634a09736585c2404979297c2ac0ca8b75c"
+    },
+    {
+      "id": "integrations-duplicate-sync-v04",
+      "decision": "approved",
+      "sha256": "4ae42eeebc19be7c5400b14b02a02fcc3d0e75acc7bfa70a2c1c667c931d4842"
+    },
+    {
+      "id": "unknown-unexpected-navigation-v04",
+      "decision": "approved",
+      "sha256": "490cc3c261172e477ee4c86b9cfdb876f4064856a8dec2accb0707286d5ec3ac"
+    },
+    {
+      "id": "authentication-reset-link-v05",
+      "decision": "approved",
+      "sha256": "a1e3495dc6aa30c21423eea20c21a2caf06e1bfb263698ab15e35cdd93e6c261"
+    },
+    {
+      "id": "billing-payment-pending-v05",
+      "decision": "approved",
+      "sha256": "3ba1fa4a7ed8c62ebbde915e4b88e368596390be0e06d2a6716d1006e38c9300"
+    },
+    {
+      "id": "dashboard-saved-view-v05",
+      "decision": "approved",
+      "sha256": "c5d54a37c4764644fbd028e3520ddf41684b94968573456ad605d980eed50266"
+    },
+    {
+      "id": "integrations-duplicate-sync-v05",
+      "decision": "approved",
+      "sha256": "7badcaa09ece8cc45264536d943305d9fa4a7a41b25883132f7c625876272562"
+    },
+    {
+      "id": "unknown-unexpected-navigation-v05",
+      "decision": "approved",
+      "sha256": "6c272b65467fb028f376ba78d093e52a8feb259fbe2f4614bb78e228932d587b"
+    },
+    {
+      "id": "authentication-reset-link-v06",
+      "decision": "approved",
+      "sha256": "73454dc65c7ad4bbfc7bd4dcb8c4864265b9178f1ef40cf8e65c72a35bff6304"
+    },
+    {
+      "id": "billing-payment-pending-v06",
+      "decision": "approved",
+      "sha256": "baa07f44ae21898e652667c5583a6d586787bf31e6f350e482cb92ee400e75eb"
+    },
+    {
+      "id": "dashboard-saved-view-v06",
+      "decision": "approved",
+      "sha256": "db7b15b5531c3e8a841be8ee091cd7978c72c37d359c252a11a84af2e7a0b37f"
+    },
+    {
+      "id": "integrations-duplicate-sync-v06",
+      "decision": "approved",
+      "sha256": "53f75c78728b3d1cbdb6367101b39c88166e146b14857e6fa7493feb6715a9d6"
+    },
+    {
+      "id": "unknown-unexpected-navigation-v06",
+      "decision": "approved",
+      "sha256": "25a8690a3746c64d35930aa1dd2d33b08b52eb4a6ad41ff2ea24faad5829d448"
+    },
+    {
+      "id": "authentication-reset-link-v07",
+      "decision": "approved",
+      "sha256": "8562e8de1d36b66ef04e1013bbcbde5d9e14c4ac234691a7293835dd5ece6e0b"
+    },
+    {
+      "id": "billing-payment-pending-v07",
+      "decision": "approved",
+      "sha256": "ee48a5c236529a29f868b519cb6e175d101dc42dfa3d2e1cec72132781e6ef85"
+    },
+    {
+      "id": "dashboard-saved-view-v07",
+      "decision": "approved",
+      "sha256": "0a7a04c63a8a1c314d1bdf2c89a003a1fad7ee0cbbb76fa8cdc54269f65f7326"
+    },
+    {
+      "id": "integrations-duplicate-sync-v07",
+      "decision": "approved",
+      "sha256": "ac0d8e8dffc8972f9062fabaf2bd6ce3dfabd89d90f679fad3f6157ff2fc50bb"
+    },
+    {
+      "id": "unknown-unexpected-navigation-v07",
+      "decision": "approved",
+      "sha256": "26cf40b580dce0b8c447c0804eb11be7b0e1dfdac27afd902e995b8c9875f02a"
+    },
+    {
+      "id": "authentication-reset-link-v08",
+      "decision": "approved",
+      "sha256": "a312c5a0d0bc0eaaa822363d8354853680a050dfc5beb901394ee36ba9f1ceae"
+    },
+    {
+      "id": "billing-payment-pending-v08",
+      "decision": "approved",
+      "sha256": "93c49d71b164fadeff388ce0d1679975292f8ac8e781e73607ce33262ceb8e2c"
+    },
+    {
+      "id": "dashboard-saved-view-v08",
+      "decision": "approved",
+      "sha256": "793dbdf6b6755d633c1ac27716db8bddb92528ac3576259eca15a2eb38bf95d7"
+    },
+    {
+      "id": "integrations-duplicate-sync-v08",
+      "decision": "approved",
+      "sha256": "a971c0626ecc73ff7aefd10a185cdcdf82707a15709c2b187e76196ffb56437a"
+    },
+    {
+      "id": "unknown-unexpected-navigation-v08",
+      "decision": "approved",
+      "sha256": "81e404adbc7f523011833d4dfd71e6d5aee5002a4cfd29e8d01cc00a2c314ed6"
+    },
+    {
+      "id": "authentication-reset-link-v09",
+      "decision": "approved",
+      "sha256": "f7e99793aa8f8722abf5355940219a06e216120000155d547db89d68eeda04a6"
+    },
+    {
+      "id": "billing-payment-pending-v09",
+      "decision": "approved",
+      "sha256": "5b0f346a68f3bcf62024d8e3d146b21b79558fda597283f362262bbc27e7e2e5"
+    },
+    {
+      "id": "dashboard-saved-view-v09",
+      "decision": "approved",
+      "sha256": "d86177c84416ff00f6aa6081bc36cef6638dae510be5bcb012d240bd40e74441"
+    },
+    {
+      "id": "integrations-duplicate-sync-v09",
+      "decision": "approved",
+      "sha256": "50710d2f4acab99ab1504e9d267885676a0e4b4a99a01a72bd8ae1fdd55927ab"
+    },
+    {
+      "id": "unknown-unexpected-navigation-v09",
+      "decision": "approved",
+      "sha256": "7e5074fdcb3b8505788edb44ba406155f8ac840bcf85e09056bac62d10699e13"
+    },
+    {
+      "id": "authentication-reset-link-v10",
+      "decision": "approved",
+      "sha256": "33d3137b4bce3c41f40d9b55f5b751a8d3c962acc13e7b9e7dad47f9a49d9a83"
+    },
+    {
+      "id": "billing-payment-pending-v10",
+      "decision": "approved",
+      "sha256": "346bc05013df88629f9103fdeb1aaf52e5a478b1191a4c5745544bff42c26e78"
+    },
+    {
+      "id": "dashboard-saved-view-v10",
+      "decision": "approved",
+      "sha256": "f8713bac3108f78695303ef1cbff1285ce76e07633a3002106bd185928896c2d"
+    },
+    {
+      "id": "integrations-duplicate-sync-v10",
+      "decision": "approved",
+      "sha256": "949693ed3187d1da23877916f25ee38f6beb2900f230b4803e5e65f94b44f0dd"
+    },
+    {
+      "id": "unknown-unexpected-navigation-v10",
+      "decision": "approved",
+      "sha256": "9c939623d9d61792833dc4eb784323640105c51dc27f790cad24fee3af5bd19b"
+    },
+    {
+      "id": "authentication-signout-v01",
+      "decision": "approved",
+      "sha256": "37e78313aa18b3fc14b28a46c682670f60ba24816b4dd8abfc3435c8ff3a59cd"
+    },
+    {
+      "id": "billing-payment-duplicate-v01",
+      "decision": "approved",
+      "sha256": "91aaa74ca52a6bdfd71c1abf7d65342014ba3fe963330ca6f1a5889b25e9c42c"
+    },
+    {
+      "id": "dashboard-total-mismatch-v01",
+      "decision": "approved",
+      "sha256": "a38db8c85f812690b85837eb42b79fd998b5c92cef0c2f73d851d665f2c4cd1c"
+    },
+    {
+      "id": "integrations-paused-sync-v01",
+      "decision": "approved",
+      "sha256": "192b30db63ed3be9d437b9eb8a66b31d3751368e3e6130b415edbf6def1ae0e2"
+    },
+    {
+      "id": "unknown-repeated-message-v01",
+      "decision": "approved",
+      "sha256": "61b5bc34c235eba97ce6dacd1886cf5d85989fd08af2a396fb59fa5691df1be6"
+    },
+    {
+      "id": "authentication-signout-v02",
+      "decision": "approved",
+      "sha256": "fb54153fb135e38eb3849a771c0bc39c4cf3c3084cfdf35d39dc9156eaadc793"
+    },
+    {
+      "id": "billing-payment-duplicate-v02",
+      "decision": "approved",
+      "sha256": "74535abce818b754c1bd5f2f5ff0a7698134b9d36bf5e9448a8d94d1bd0ea593"
+    },
+    {
+      "id": "dashboard-total-mismatch-v02",
+      "decision": "approved",
+      "sha256": "9ecdd922649d378e5bc3c0f3fb6fc8b8aceb758c01864b0d6fc8807746b86087"
+    },
+    {
+      "id": "integrations-paused-sync-v02",
+      "decision": "approved",
+      "sha256": "bd8f0b24f9dc7ead1daa34990e5deded990ad5aead3077746353be3a5e9eb6d0"
+    },
+    {
+      "id": "unknown-repeated-message-v02",
+      "decision": "approved",
+      "sha256": "f45ea2b3e58a5c55c3ed8ca463e6fb105fbded3197504ada22ddb55fdd8bcfe7"
+    },
+    {
+      "id": "authentication-signout-v03",
+      "decision": "approved",
+      "sha256": "3c026e1962a7650ed4d5ee0555d4907a8f2bf74e3ad8eb4ac94209403451dd6e"
+    },
+    {
+      "id": "billing-payment-duplicate-v03",
+      "decision": "approved",
+      "sha256": "cbf74e6eb28d28d2ed6d9c4420861def5d0b4f5d28e3be679f7656a54661289a"
+    },
+    {
+      "id": "dashboard-total-mismatch-v03",
+      "decision": "approved",
+      "sha256": "9ba00488af8b5bb63266f70d6b6511f144b7b9e6a30ad5a4d45d666d4b2c58d0"
+    },
+    {
+      "id": "integrations-paused-sync-v03",
+      "decision": "approved",
+      "sha256": "7db1e3f2c418a1c65f8a941f2401fc458351b1b23d0569aae870b7f26f54bf7e"
+    },
+    {
+      "id": "unknown-repeated-message-v03",
+      "decision": "approved",
+      "sha256": "d79535808e7135fee5b1150b35cdc7a4cc9eaed717087ebcd4149d44002b8489"
+    },
+    {
+      "id": "authentication-signout-v04",
+      "decision": "approved",
+      "sha256": "0834fe9712a6f7cb53a56fad3bbeb8af6e5386bb01d9ebc2e01f505c05ea36e6"
+    },
+    {
+      "id": "billing-payment-duplicate-v04",
+      "decision": "approved",
+      "sha256": "d4bfdabbb8adaf551f28ef62cab41fd997d434b1cd7a89f9bd6a1bd2737c469a"
+    },
+    {
+      "id": "dashboard-total-mismatch-v04",
+      "decision": "approved",
+      "sha256": "d96444734861e455a9c9a0b98917335d8afa8e3adb0a9a734b247ff2a3b9317e"
+    },
+    {
+      "id": "integrations-paused-sync-v04",
+      "decision": "approved",
+      "sha256": "d9a7870bc0ce3610025a63b8648d26d80404dcf8cedc13e240eca0ee5b6ef392"
+    },
+    {
+      "id": "unknown-repeated-message-v04",
+      "decision": "approved",
+      "sha256": "404b56bafe8e726ec8dc80be6efa10a539e69f534f7c1edf03d177588a565066"
+    },
+    {
+      "id": "authentication-signout-v05",
+      "decision": "approved",
+      "sha256": "574367bad4e44894584d39a2288b647c30770eb1c1d2b1134dd4049bf6e09b3e"
+    },
+    {
+      "id": "billing-payment-duplicate-v05",
+      "decision": "approved",
+      "sha256": "205a206809c725be5fd032a0a709a8a73704b20bbe969293a31c3ad89fe51393"
+    },
+    {
+      "id": "dashboard-total-mismatch-v05",
+      "decision": "approved",
+      "sha256": "f6afc020c5ae66463712b528f3772998e305cecab34804ef2932f91fc7862c0d"
+    },
+    {
+      "id": "integrations-paused-sync-v05",
+      "decision": "approved",
+      "sha256": "9c4838964d75f7613231dcb6253d29b7ed3e17b7384c9857bdcf1f1bd19d2ad3"
+    },
+    {
+      "id": "unknown-repeated-message-v05",
+      "decision": "approved",
+      "sha256": "e0d821b19599474dbcdb17792d294b0cd3c9482f7f966a04d93698a1ecb2a459"
+    },
+    {
+      "id": "authentication-signout-v06",
+      "decision": "approved",
+      "sha256": "507f858623d6685371b7ec7a52edc5aefba9794ff1c1d0c2564e1558f0efd2a6"
+    },
+    {
+      "id": "billing-payment-duplicate-v06",
+      "decision": "approved",
+      "sha256": "9cfdbc114900de1186e28005bee63727f8782fb978d6e88165f07f7cf671c107"
+    },
+    {
+      "id": "dashboard-total-mismatch-v06",
+      "decision": "approved",
+      "sha256": "db941f4244bc945b0ee93b33d7cf6d825597b4bc3c44332c427d57b16fa0500a"
+    },
+    {
+      "id": "integrations-paused-sync-v06",
+      "decision": "approved",
+      "sha256": "523f72e1da71527e9d5bf317d0e73afc9718f585ff5f614654ba5bab14a5f870"
+    },
+    {
+      "id": "unknown-repeated-message-v06",
+      "decision": "approved",
+      "sha256": "848e6c229b26560e41776cae1b3573e4dc432f10174042eb38ec46003843fc4f"
+    },
+    {
+      "id": "authentication-signout-v07",
+      "decision": "approved",
+      "sha256": "27080a09d3e894495db6c0245f4b2f814e98917d1e9abd9fc982b4fa12b3b04f"
+    },
+    {
+      "id": "billing-payment-duplicate-v07",
+      "decision": "approved",
+      "sha256": "df6ab0e1d7b91e19e915bc6e31fba06aaf8370423e3571687258f5ed6081b62d"
+    },
+    {
+      "id": "dashboard-total-mismatch-v07",
+      "decision": "approved",
+      "sha256": "ce2cddfdab5793155f33767fbe31d51db230aab94a6f465fd77977b6265cabb5"
+    },
+    {
+      "id": "integrations-paused-sync-v07",
+      "decision": "approved",
+      "sha256": "c945378f0d6b6edbff27d337865d44a7d44b9ac26d4b37a266520aa35dfabc85"
+    },
+    {
+      "id": "unknown-repeated-message-v07",
+      "decision": "approved",
+      "sha256": "374185c31a26942187498ded4fee09b0cad8b406c523f4f193791dd2313cfc81"
+    },
+    {
+      "id": "authentication-signout-v08",
+      "decision": "approved",
+      "sha256": "9121715868e46d177809c8f0475d55ec7be635adef22dea5d1d07957438e6be1"
+    },
+    {
+      "id": "billing-payment-duplicate-v08",
+      "decision": "approved",
+      "sha256": "d6edc607987d3468e003dd52bd113bb6bc6fdb0f18d01b534819822796d6f3f4"
+    },
+    {
+      "id": "dashboard-total-mismatch-v08",
+      "decision": "approved",
+      "sha256": "32c59b5b2fb6e304595d3de5fbae40d082a6c03dcef47496e31eb1e31b2ed410"
+    },
+    {
+      "id": "integrations-paused-sync-v08",
+      "decision": "approved",
+      "sha256": "a515cd65f188c0160cb976e90b4bafbe72e48bc65f7adc7f17c6d9c33c725191"
+    },
+    {
+      "id": "unknown-repeated-message-v08",
+      "decision": "approved",
+      "sha256": "3fb593ab5039b2058d6e08fc87760f337f5832b0f83b0d3b71216fc82179c9b3"
+    },
+    {
+      "id": "authentication-signout-v09",
+      "decision": "approved",
+      "sha256": "07c03727d3dbdb771a63078be78350dfd26e2eee0079efdab69163de26dc10f6"
+    },
+    {
+      "id": "billing-payment-duplicate-v09",
+      "decision": "approved",
+      "sha256": "7006c21a95cc5d2d000cda34f5fff01dc44d82befb835550135ce5ca7b81c308"
+    },
+    {
+      "id": "dashboard-total-mismatch-v09",
+      "decision": "approved",
+      "sha256": "8c0abb1c7cafef5d4639f5128f5232d368c96c2337218af931351573970854bf"
+    },
+    {
+      "id": "integrations-paused-sync-v09",
+      "decision": "approved",
+      "sha256": "795abd56175589db5aa22575e33ce3eb0cb1b17a9c26ba9379bcbae075340117"
+    },
+    {
+      "id": "unknown-repeated-message-v09",
+      "decision": "approved",
+      "sha256": "c3726d365f8f026ae6803565a9256672095797f3b189094fcae8e4222ad90d5a"
+    },
+    {
+      "id": "authentication-signout-v10",
+      "decision": "approved",
+      "sha256": "12ba6ad3497b329fab95a2c751b98c649d56e3d0644ba5f07a962fcd2c09ccf0"
+    },
+    {
+      "id": "billing-payment-duplicate-v10",
+      "decision": "approved",
+      "sha256": "da659ba07d69da8634ea88285d7d837344688d647b0cbfaf574bd97ad574c05a"
+    },
+    {
+      "id": "dashboard-total-mismatch-v10",
+      "decision": "approved",
+      "sha256": "81d1f38841f9394bd581cb92e42806cd3cb2ba5372b249533aaa58136e16692d"
+    },
+    {
+      "id": "integrations-paused-sync-v10",
+      "decision": "approved",
+      "sha256": "88825fff7ed5eb67a5f05595becca7703cbb73cacb59bada4e7452d3251fe31a"
+    },
+    {
+      "id": "unknown-repeated-message-v10",
+      "decision": "approved",
+      "sha256": "7330dcc1585ccd957cfd10597304487aa8cd50111c50f7418d905b4415335d21"
+    },
+    {
+      "id": "authentication-verification-code-v01",
+      "decision": "approved",
+      "sha256": "3cf2b43c01fcc69a6ef6991e53b62bea9d7e1024015e0b391919469d39940584"
+    },
+    {
+      "id": "billing-receipt-blank-v01",
+      "decision": "approved",
+      "sha256": "4587e1bac75b76cfff80c908517551bfa66177c0b5a4e12f39407556a5209592"
+    },
+    {
+      "id": "dashboard-dashboard-export-v01",
+      "decision": "approved",
+      "sha256": "15924b8f7545b22d0fbb101056d088ed84660406aa62c4acbcb55b3a9d9adf16"
+    },
+    {
+      "id": "integrations-zapier-test-v01",
+      "decision": "approved",
+      "sha256": "45efbca35523a55578676109b165d155688d4ae87421606b57d9ed1ca16a337f"
+    },
+    {
+      "id": "unknown-empty-download-v01",
+      "decision": "approved",
+      "sha256": "ed7423bc6e6c9f58232190ebc5a86ab16fd5d6bfa575657e1fce3b9a6737a936"
+    },
+    {
+      "id": "authentication-verification-code-v02",
+      "decision": "approved",
+      "sha256": "af20c0f1f7dfdcdd97ca4c9ca24af81dd68d6837248f294023ae351d97d8c6a5"
+    },
+    {
+      "id": "billing-receipt-blank-v02",
+      "decision": "approved",
+      "sha256": "7e4b011e132d23f5616f7bc691a1396d3bc4c10dfafb7020e046c1aba59b5b34"
+    },
+    {
+      "id": "dashboard-dashboard-export-v02",
+      "decision": "approved",
+      "sha256": "c7cd72442bd6e9021fa81d350cb6dca1bc03d226607a35940514336a52c10b83"
+    },
+    {
+      "id": "integrations-zapier-test-v02",
+      "decision": "approved",
+      "sha256": "1dc0f68d8ab3bd7d21b1b4676ca0c91e38c45d49bf4ddc46008578c4d71504d2"
+    },
+    {
+      "id": "unknown-empty-download-v02",
+      "decision": "approved",
+      "sha256": "896b5521539b558813efa65fd95485ef89c8525323fdd1fd417cade74dbbdca3"
+    },
+    {
+      "id": "authentication-verification-code-v03",
+      "decision": "approved",
+      "sha256": "825de2d98d8a070d3d09df5b554f4100fad37c457e3b75c1eba0677957f0b3ae"
+    },
+    {
+      "id": "billing-receipt-blank-v03",
+      "decision": "approved",
+      "sha256": "b4d291b6b6060e23e5cca64371fac2bf3a50d171fb950b29152788841c86f8ae"
+    },
+    {
+      "id": "dashboard-dashboard-export-v03",
+      "decision": "approved",
+      "sha256": "f88f714fd18ed1a615f3d0d44054a4dc9849b25a94e3b5e3857b1b61f79a56b8"
+    },
+    {
+      "id": "integrations-zapier-test-v03",
+      "decision": "approved",
+      "sha256": "712efffa7b48121fec43e9e84d17da2f2120588a4d75352aec09ecd12bd00152"
+    },
+    {
+      "id": "unknown-empty-download-v03",
+      "decision": "approved",
+      "sha256": "f82119c3c321f508629e3e0c2a0c40acb87e0e285e78f79f23181cab64fcffe8"
+    },
+    {
+      "id": "authentication-verification-code-v04",
+      "decision": "approved",
+      "sha256": "4c1d79f305b1090c3f6079fda53aeae3eca3b8b0cc7d63c1c8e8611c2b6b14fc"
+    },
+    {
+      "id": "billing-receipt-blank-v04",
+      "decision": "approved",
+      "sha256": "c7ebca3881e18589d72644a02bc6dc242881d5da50c991ef19ff98041472ec87"
+    },
+    {
+      "id": "dashboard-dashboard-export-v04",
+      "decision": "approved",
+      "sha256": "ea272a26cae7d73d5df38882de88ff9c2156c75266647b1aee3cb41cc9655e89"
+    },
+    {
+      "id": "integrations-zapier-test-v04",
+      "decision": "approved",
+      "sha256": "eda4c19e97fccd5acce6c06d897fd6517c925e9e593d046487005e4e80282f6e"
+    },
+    {
+      "id": "unknown-empty-download-v04",
+      "decision": "approved",
+      "sha256": "94e44a08977495f5b6802aa6163e304796a852311082195e67324c3988e8106d"
+    },
+    {
+      "id": "authentication-verification-code-v05",
+      "decision": "approved",
+      "sha256": "55ca94fb45262c779f5d21db965d71858acccefb076fd8530ba5a3839436645b"
+    },
+    {
+      "id": "billing-receipt-blank-v05",
+      "decision": "approved",
+      "sha256": "9da1f59cdfe5d7b4bc8dd12704413452fc97c4c7cc560a1dc1a2b9731aff6fc9"
+    },
+    {
+      "id": "dashboard-dashboard-export-v05",
+      "decision": "approved",
+      "sha256": "0630d6b613a977d2d4a3f03b5b75fd3e362a20fbdff34a757e96fd1dc0c7330d"
+    },
+    {
+      "id": "integrations-zapier-test-v05",
+      "decision": "approved",
+      "sha256": "671894c042642c20ab9a332932c2cfb59d8d140ecc6f835bdac3b78e994d3fc3"
+    },
+    {
+      "id": "unknown-empty-download-v05",
+      "decision": "approved",
+      "sha256": "7c77c8e7a6c9c68ba3eeac15800b5270e177359bbbb352c4939457eb89595030"
+    },
+    {
+      "id": "authentication-verification-code-v06",
+      "decision": "approved",
+      "sha256": "9ecf2bbf372400573ae45a3670a3bfc4a570921972e87c4a30bc5bcab9bc2b25"
+    },
+    {
+      "id": "billing-receipt-blank-v06",
+      "decision": "approved",
+      "sha256": "1bbc36a6f5e30a5dc1adbc17159afc2d88bb1295a7abea4eb504e2b983574855"
+    },
+    {
+      "id": "dashboard-dashboard-export-v06",
+      "decision": "approved",
+      "sha256": "eb76cfc3e179f51263c67be85d16a06652c2fd525d537f4717c48aeabe7ef642"
+    },
+    {
+      "id": "integrations-zapier-test-v06",
+      "decision": "approved",
+      "sha256": "45b8133239a2a6a92e1f249256d2914571d391b9591de67e3d8b12ec4c3a1ffe"
+    },
+    {
+      "id": "unknown-empty-download-v06",
+      "decision": "approved",
+      "sha256": "055c1d2107c926929a28426c85495ff974cfd3f3abf24f1c4135e039e30fa079"
+    },
+    {
+      "id": "authentication-verification-code-v07",
+      "decision": "approved",
+      "sha256": "e54cf2189ffc7ac952c117a3624335641a67ea844146e6a0211190d27e425eb5"
+    },
+    {
+      "id": "billing-receipt-blank-v07",
+      "decision": "approved",
+      "sha256": "ec73655392cd18583b32d7bd8d93a68e4d5e619879bd01014f92d46a818d6581"
+    },
+    {
+      "id": "dashboard-dashboard-export-v07",
+      "decision": "approved",
+      "sha256": "d7727006a8b71bee5a147b348032b3aacbf7a19ecd5e86b0862bfbadc7fc5c12"
+    },
+    {
+      "id": "integrations-zapier-test-v07",
+      "decision": "approved",
+      "sha256": "cde950d4eda472bcb462f62c09cdfd7627e87f947626dd943e6a8345bc09a916"
+    },
+    {
+      "id": "unknown-empty-download-v07",
+      "decision": "approved",
+      "sha256": "68ac5507e40c835f953ccb579a24ed4dd4f59b19b06cea37b6d7a8db20ec6d09"
+    },
+    {
+      "id": "authentication-verification-code-v08",
+      "decision": "approved",
+      "sha256": "f7683c3877ed42348ba0be640af6ce24b667f3d1689d332b76bbede7b49b0f52"
+    },
+    {
+      "id": "billing-receipt-blank-v08",
+      "decision": "approved",
+      "sha256": "c103b6b174f26982dfd187d41d80daf0d1b438e93d6ff82a33448bc874c65204"
+    },
+    {
+      "id": "dashboard-dashboard-export-v08",
+      "decision": "approved",
+      "sha256": "fe1993b94495c737a18c8660503930a22fa3bc399d71d103e43f51c3c088f589"
+    },
+    {
+      "id": "integrations-zapier-test-v08",
+      "decision": "approved",
+      "sha256": "a0a68975b6b98a77502fc91c2642ee186f82e9f0e064442fec51d81ab6f04fa8"
+    },
+    {
+      "id": "unknown-empty-download-v08",
+      "decision": "approved",
+      "sha256": "d507ba93b0e9ade676d0f5f7811f7109e35fb97f475fadf271134a19c70a4cf5"
+    },
+    {
+      "id": "authentication-verification-code-v09",
+      "decision": "approved",
+      "sha256": "d15172121b8c891feee2a3fca3c0c3d19b629e1a359fd987b192d89d42fa5dbb"
+    },
+    {
+      "id": "billing-receipt-blank-v09",
+      "decision": "approved",
+      "sha256": "65c17403e9ecc949dc630bfb6fa2fa4683556966a6551e96aee1f14902b7c0fc"
+    },
+    {
+      "id": "dashboard-dashboard-export-v09",
+      "decision": "approved",
+      "sha256": "2d264c615e52bb5bacc78ac7657dc7fde9cd8c1cf306530620e554b0f531ae55"
+    },
+    {
+      "id": "integrations-zapier-test-v09",
+      "decision": "approved",
+      "sha256": "a71cf004c0ddd99c49985adfb5b2fb74879efbb51a078455aa4bc8561ed226f0"
+    },
+    {
+      "id": "unknown-empty-download-v09",
+      "decision": "approved",
+      "sha256": "1c0967a6fada2f2912dfa4b07c68ba766d04726797b896d6abec0334adfbec3a"
+    },
+    {
+      "id": "authentication-verification-code-v10",
+      "decision": "approved",
+      "sha256": "a1591d2f3f5bf4f657fe23c4f08e368cf46f6a8eeb97e99ccdabf2bd79da36c5"
+    },
+    {
+      "id": "billing-receipt-blank-v10",
+      "decision": "approved",
+      "sha256": "449bd9ca72a0437b591ebc6fbe71d98e731a1020d03cbb08cab2dd38d8573012"
+    },
+    {
+      "id": "dashboard-dashboard-export-v10",
+      "decision": "approved",
+      "sha256": "374e83eec1335473a0b5fe88ae93719389eead2382b4276b065c895872825672"
+    },
+    {
+      "id": "integrations-zapier-test-v10",
+      "decision": "approved",
+      "sha256": "d28d965b3195e03a8453829d0df7e22f85bb6f8a9082f168b29d005f3114525f"
+    },
+    {
+      "id": "unknown-empty-download-v10",
+      "decision": "approved",
+      "sha256": "2f98d95aedaeaa5f454259149a3346b9cbd324dd8ce17fde3072372ddfc58b96"
+    }
+  ],
+  "export_file": "bulk-approved.jsonl",
+  "export_sha256": "bdb3e159c006ae86a3f94ed0104f84e83219fd4caba0df3a067cb0c34751ca2c"
+}

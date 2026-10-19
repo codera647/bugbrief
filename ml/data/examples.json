@@ -1,0 +1,70 @@
+[
+  {
+    "id": "billing-bulk-export",
+    "label": "Billing · empty export",
+    "report": "Since yesterday, exporting invoices gives me an empty file. It happens when I select several invoices, but exporting one works. I am using Chrome.",
+    "ticket": {
+      "title": "Bulk invoice export produces an empty file",
+      "product_area": "Billing",
+      "product_area_evidence": "exporting invoices gives me an empty file",
+      "actual_behavior": "Exporting several invoices produces an empty file; exporting one works.",
+      "expected_behavior": "Exporting several invoices should produce a file containing their data.",
+      "expected_behavior_basis": "Inferred",
+      "reported_environment": {"browser": "Chrome", "browser_version": null, "operating_system": null, "app_version": null, "other_details": []},
+      "reported_steps": null,
+      "missing_information": ["Export format", "Browser version", "Affected invoice count"],
+      "follow_up_questions": ["Which export format did you choose?", "Which Chrome version are you using?", "How many invoices did you select?"]
+    }
+  },
+  {
+    "id": "authentication-loop",
+    "label": "Authentication · sign-in loop",
+    "report": "I enter my email and password, click Sign in, and get sent back to the sign-in screen without a message. I expected to open my account. This happens in Firefox 131 on Windows 11.",
+    "ticket": {
+      "title": "Sign-in returns to the sign-in screen without a message",
+      "product_area": "Authentication",
+      "product_area_evidence": "get sent back to the sign-in screen",
+      "actual_behavior": "Submitting an email and password returns the user to the sign-in screen without a message.",
+      "expected_behavior": "Open the user's account after sign-in.",
+      "expected_behavior_basis": "Reported",
+      "reported_environment": {"browser": "Firefox", "browser_version": "131", "operating_system": "Windows 11", "app_version": null, "other_details": []},
+      "reported_steps": ["Enter an email and password.", "Click Sign in."],
+      "missing_information": ["Whether sign-in works in another browser", "When the behavior was first noticed"],
+      "follow_up_questions": ["Does sign-in work in another browser?", "When did you first notice this behavior?"]
+    }
+  },
+  {
+    "id": "integrations-sync",
+    "label": "Integrations · sync error",
+    "report": "In Integrations, I click Sync on the Stripe connection. It shows 'Sync failed' every time. I expected the connection to sync. I tried three times today in Safari.",
+    "ticket": {
+      "title": "Stripe connection shows Sync failed when syncing",
+      "product_area": "Integrations",
+      "product_area_evidence": "In Integrations, I click Sync on the Stripe connection",
+      "actual_behavior": "The Stripe connection shows 'Sync failed' on each of three reported attempts today.",
+      "expected_behavior": "The Stripe connection should sync.",
+      "expected_behavior_basis": "Reported",
+      "reported_environment": {"browser": "Safari", "browser_version": null, "operating_system": null, "app_version": null, "other_details": []},
+      "reported_steps": ["Open Integrations.", "Click Sync on the Stripe connection."],
+      "missing_information": ["Safari version", "Additional error details", "Last successful sync"],
+      "follow_up_questions": ["Which Safari version are you using?", "Are there any other error details shown?", "When did this connection last sync successfully?"]
+    }
+  },
+  {
+    "id": "unknown-vague",
+    "label": "Unknown · incomplete report",
+    "report": "Something is broken again. The page just spins when I try it. I don't know which version I'm on.",
+    "ticket": {
+      "title": "Unspecified page keeps showing a loading indicator",
+      "product_area": "Unknown",
+      "product_area_evidence": null,
+      "actual_behavior": "An unspecified page keeps showing a loading indicator.",
+      "expected_behavior": null,
+      "expected_behavior_basis": "Unknown",
+      "reported_environment": {"browser": null, "browser_version": null, "operating_system": null, "app_version": null, "other_details": []},
+      "reported_steps": null,
+      "missing_information": ["Affected page and action", "Expected result", "Browser and operating system"],
+      "follow_up_questions": ["Which page and action are affected?", "What did you expect to happen?", "Which browser and operating system are you using?"]
+    }
+  }
+]

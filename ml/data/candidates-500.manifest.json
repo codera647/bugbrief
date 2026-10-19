@@ -1,0 +1,15 @@
+{
+  "generator": "scenario_templates_v1",
+  "seed": 42,
+  "candidate_count": 500,
+  "human_reviewed_count": 0,
+  "area_counts": {
+    "Authentication": 100,
+    "Billing": 100,
+    "Dashboard": 100,
+    "Integrations": 100,
+    "Unknown": 100
+  },
+  "scenario_family_count": 50,
+  "initial_candidates_sha256": "bdb3e159c006ae86a3f94ed0104f84e83219fd4caba0df3a067cb0c34751ca2c"
+}

@@ -1,0 +1,5538 @@
+{
+  "version": 2,
+  "generator": "scenario_templates_v2",
+  "created_at": "2026-10-15T13:40:55.220630+00:00",
+  "method": "AI-authored corrections with automated source and schema checks",
+  "user_instruction": "correct the dataset",
+  "individual_human_review_verified": false,
+  "policy": "Reported requires an explicitly stated expectation. Infer only a concrete conventional outcome supported by the identified action or feature. For an unspecified page/button/list/message without a concrete intended result, use Unknown and null. Browser, OS, app version, and timing do not determine the label.",
+  "source_reports_unchanged": true,
+  "split_membership_unchanged": true,
+  "parent_source_sha256": "bdb3e159c006ae86a3f94ed0104f84e83219fd4caba0df3a067cb0c34751ca2c",
+  "parent_approval_sha256": "e6a917617b557bd696f3bffa199cd4b90af491a9468ba41529b08f530f216341",
+  "parent_split_sha256": {
+    "train": "c03d8e75d19ebc7b8213c9be1664482048c32d4e865fa222d22399d02747f474",
+    "validation": "4ebb9fbb7dae8ed2fbd3b85a0c0574a9f757353d8d0c20a9a0f0d48f33156e9c",
+    "test": "760e458b53006f49ff4f465855c3b4bdad4fbcef6a51dac55afb22907f1f090e"
+  },
+  "corrected_source_sha256": "ee1077c4e190d80a59b8890e678a5fde033a57beaf842a86112939a0c1dd128d",
+  "changed_rows": 116,
+  "changes": [
+    {
+      "id": "unknown-list-empty-v01",
+      "before_sha256": "835ece22dee0500ddef12e6d6a3ea76e5c914545b201933e59ce9a5fec29396b",
+      "after_sha256": "1451e0f69d57d538ae4e16c71b8803527cfaad1eb2787555fc6bec4273910067",
+      "fields": {
+        "expected_behavior": {
+          "before": "See entries in the list.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "List and active filters",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "List and active filters",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which list is empty, and are any filters selected?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ],
+          "after": [
+            "Which list is empty, and are any filters selected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-list-empty-v03",
+      "before_sha256": "a56e413907be8ab66671139845042facdb9f2a0afb72ba46d3ed91001840ce4b",
+      "after_sha256": "c4b0b4dc947b79db2a8a5585345b3f554b0f6a7de618781111d359d7de7fe281",
+      "fields": {
+        "expected_behavior": {
+          "before": "See entries in the list.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "List and active filters",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "List and active filters",
+            "Expected result",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which list is empty, and are any filters selected?",
+            "Which LedgerFlow app version are you using?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which list is empty, and are any filters selected?",
+            "What did you expect to happen?",
+            "Which LedgerFlow app version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-list-empty-v05",
+      "before_sha256": "8bb526c18950c7458940a06ed6401addfb95c5b5fcce54ee486e78caf6efbe60",
+      "after_sha256": "593f7c4e8a2d2bdb4aaf2a09f7726b76f95d409506bdc77c2957e3aa5b5f0cbd",
+      "fields": {
+        "expected_behavior": {
+          "before": "See entries in the list.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "List and active filters",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ],
+          "after": [
+            "List and active filters",
+            "Expected result",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which list is empty, and are any filters selected?",
+            "Which steps lead to this behavior?",
+            "Which LedgerFlow app version are you using?"
+          ],
+          "after": [
+            "Which list is empty, and are any filters selected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-reset-email-v06",
+      "before_sha256": "bc64c4a9a68ba644d7ebfa849ce839ae09b742bebb99e2403443d37d39a3cd60",
+      "after_sha256": "3012b5a55f9eb3f6880bdf8289c3a343f52d16869f45497a37ae569ca2986e74",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Receive a password reset email."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether the reset email is in spam",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether the reset email is in spam",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Is the reset email in your spam folder?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Is the reset email in your spam folder?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-bulk-export-v06",
+      "before_sha256": "29b33a77baeea2a7b9ffb1699666eb019f5d3a3d6a00de2578beadb6a5923466",
+      "after_sha256": "549576b17df52f46ec1802a65c24dd658a364ac3e9ef03a098058c2044f16658",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Download a file containing the selected invoices."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Invoice export format",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Invoice export format",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which invoice export format did you choose?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which invoice export format did you choose?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-dashboard-loading-v06",
+      "before_sha256": "809c3d6531186bd30729c666d373d67957910ff0d44dc263b50a9d0e37fe1a2b",
+      "after_sha256": "3b3db681e23d7cda8a226aab8f7119fa7dd48553835b1e5e96d4b28468cc840d",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the dashboard content."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Duration of the loading state",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Duration of the loading state",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "How long does the dashboard remain in the loading state?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "How long does the dashboard remain in the loading state?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-disconnect-v06",
+      "before_sha256": "28756de3d1600c6c7ed5e75d45bfcc7297f156b753e9c5e0e08a4e5aa5654591",
+      "after_sha256": "016df8cd44f0cf66400380bd83ca09897888359c69bc40568b3b088605f124b9",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the integration marked as disconnected."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Affected integration provider",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected integration provider",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which integration provider remains marked as connected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which integration provider remains marked as connected?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-reset-email-v08",
+      "before_sha256": "550f08aba1d726aa268b6c0ec66ddfdf8788e6f23ff59aab0949a970b751a9a7",
+      "after_sha256": "194acf17900e402e448dd88f53780525c36562e8d868f40ee94ea1ec7ab08762",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Receive a password reset email."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether the reset email is in spam",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether the reset email is in spam",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Is the reset email in your spam folder?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Is the reset email in your spam folder?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-bulk-export-v08",
+      "before_sha256": "3fcd403177192a8b3d4002c560eb8de2398d8310b3d2316a35b4d4a580354cb1",
+      "after_sha256": "e7b125b8b3c9046137568c5e74a4cd6a6ced63d304ffce3b9c28f2f957d71789",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Download a file containing the selected invoices."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Invoice export format",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Invoice export format",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which invoice export format did you choose?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which invoice export format did you choose?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-dashboard-loading-v08",
+      "before_sha256": "6cc35be14ee66bc31052916c708daef0caea6280576382fabc01a8af4a3be980",
+      "after_sha256": "881bbd5971f11ece9e362433c46d18ab20779f8fc3f571fc09356d2ef4fedbb9",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the dashboard content."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Duration of the loading state",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Duration of the loading state",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "How long does the dashboard remain in the loading state?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "How long does the dashboard remain in the loading state?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-disconnect-v08",
+      "before_sha256": "8965376d87c6e8d64627c8e301356d8f9b1e99e042850e92926fa3bb80dd7da5",
+      "after_sha256": "2b39bb6b606754a0561301d01de5003da24e56d3fc07910fe68d3a013057c182",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the integration marked as disconnected."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Affected integration provider",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected integration provider",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which integration provider remains marked as connected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which integration provider remains marked as connected?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-list-empty-v10",
+      "before_sha256": "7054bd7006a5a0407a089dc033c9f799eecfd3a41fef0473a98f64c55813aa01",
+      "after_sha256": "5aa6eeb509003bbfc0c896fb6adc71bf0eed72752c94f47b414baa09cf2b820c",
+      "fields": {
+        "expected_behavior": {
+          "before": "See entries in the list.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "List and active filters",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "List and active filters",
+            "Expected result",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which list is empty, and are any filters selected?",
+            "Which steps lead to this behavior?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which list is empty, and are any filters selected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unavailable-option-v01",
+      "before_sha256": "1fb91e6f74a8ea672448fabce445bead6a0e4fe4424ad0380aa4c9406a96b507",
+      "after_sha256": "c305220b2d1fb3011cf7826ab7265a3e8e32f7fa582d73a1de5da24f13a9b1b4",
+      "fields": {
+        "expected_behavior": {
+          "before": "Select the option.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Option and menu",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Option and menu",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which option and menu are affected?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ],
+          "after": [
+            "Which option and menu are affected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unavailable-option-v03",
+      "before_sha256": "fc387639c1624d40a194ebf16e0bf4384c10c06dac72b18324435d66e78b8fad",
+      "after_sha256": "7a2eaa8cb68b80a6df2dd722f4a17d7b466f92e0fd0bef44d9ad57b195b393c3",
+      "fields": {
+        "expected_behavior": {
+          "before": "Select the option.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Option and menu",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Option and menu",
+            "Expected result",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which option and menu are affected?",
+            "Which LedgerFlow app version are you using?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which option and menu are affected?",
+            "What did you expect to happen?",
+            "Which LedgerFlow app version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unavailable-option-v05",
+      "before_sha256": "b0e91d41b987725e2b554c9f31092f6e4c6573e9a0483fe0479dc2257eca5657",
+      "after_sha256": "58113561b51b39894282681d23b38cefb2e9e4cd1bbe2962c1b90568eed804f5",
+      "fields": {
+        "expected_behavior": {
+          "before": "Select the option.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Option and menu",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ],
+          "after": [
+            "Option and menu",
+            "Expected result",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which option and menu are affected?",
+            "Which steps lead to this behavior?",
+            "Which LedgerFlow app version are you using?"
+          ],
+          "after": [
+            "Which option and menu are affected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-signin-loop-v06",
+      "before_sha256": "4b4ea41b9283da8d3eb9491259b5afd16c6bfdf52e09810454107ee6329ab70f",
+      "after_sha256": "dca71ef07393f4b88fb5ebb050cbff78c55e4a71e7596cb917ea73fe9424467f",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Open the account after signing in."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether another browser allows sign-in",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether another browser allows sign-in",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Does sign-in work in another browser?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Does sign-in work in another browser?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-subscription-page-v06",
+      "before_sha256": "a5ebe6da40171b6d002734c2c1272fd73b597042723db10a62949aa30d58189b",
+      "after_sha256": "a3cbaa2e534c14a9b5fefd26061983fe46e14f229dfe9c6976c2dcea53999256",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the subscription details."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether other billing pages load",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether other billing pages load",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Do other billing pages load successfully?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Do other billing pages load successfully?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v06",
+      "before_sha256": "7f2b950fe5a1426c07e007c8c9e13f81e3633c12760ced7e1fc72cd6f51c5c4a",
+      "after_sha256": "856b8d5247a81f8eb5ac7c97464b5ce1115ec487025c0a86914d2a6ed39ec844",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Read the complete chart tooltip."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Window size when the tooltip is clipped",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Window size when the tooltip is clipped",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "How large is the browser window when the tooltip is cut off?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "How large is the browser window when the tooltip is cut off?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-reconnect-v06",
+      "before_sha256": "8e946fb8f6af3337377eb8c55a001516aa356c689df84d8530c3dbb1276a8ce8",
+      "after_sha256": "3262d8a621b77d5070289f47a15fae222feada1200214b69a86a0b443f1dd822",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Start reconnecting the integration."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Affected integration provider",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected integration provider",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which integration provider has the unresponsive Reconnect button?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which integration provider has the unresponsive Reconnect button?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-signin-loop-v08",
+      "before_sha256": "cacbd9917b88e907cf7b6aa94a73c734966ca8236f239ba1d7fcb704cf8e650a",
+      "after_sha256": "b2cd035ca23aaba3e9ef1dd3e8c09efb46c3a435a1b3997d900c0d0b0b7091b1",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Open the account after signing in."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether another browser allows sign-in",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether another browser allows sign-in",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Does sign-in work in another browser?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Does sign-in work in another browser?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-subscription-page-v08",
+      "before_sha256": "e6ce6d8d17c54b0813861eb378d045c5556390030ec2ed37ea09004d3f1f230f",
+      "after_sha256": "58ac1f9a9a09cc5755f7ecb68198587f5776a2ec28d37d35f0e43cef8a16ad2b",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the subscription details."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether other billing pages load",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether other billing pages load",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Do other billing pages load successfully?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Do other billing pages load successfully?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-tooltip-clipped-v08",
+      "before_sha256": "056d40ec3f35803500e18537641d8263988ccb64fab1e53be02407da1f5a46a2",
+      "after_sha256": "3b0ccfd558e6becdacebf3729efda2e1a180b416dc60aeeb7a8cb3d13ebdd788",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Read the complete chart tooltip."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Window size when the tooltip is clipped",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Window size when the tooltip is clipped",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "How large is the browser window when the tooltip is cut off?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "How large is the browser window when the tooltip is cut off?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-reconnect-v08",
+      "before_sha256": "e66ab72db9bb23e97893f1a3e763feeba72f884a3b9a88f4f0759292b9a7b27f",
+      "after_sha256": "6254d54a53cd9bfc9946d68d13258b4ecd9646551853217674dfa4d3d261d756",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Start reconnecting the integration."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Affected integration provider",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected integration provider",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which integration provider has the unresponsive Reconnect button?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which integration provider has the unresponsive Reconnect button?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unavailable-option-v10",
+      "before_sha256": "5a9de63322415fa4194b23e3a44ac87e7f34510fbb96daf0ee455693444c9f99",
+      "after_sha256": "ff18d54121544c90d93239220c2fbfb46b257ec93db50df89bd92311eca622d2",
+      "fields": {
+        "expected_behavior": {
+          "before": "Select the option.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Option and menu",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Option and menu",
+            "Expected result",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which option and menu are affected?",
+            "Which steps lead to this behavior?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which option and menu are affected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-blank-page-v01",
+      "before_sha256": "205076d3aea459a3f42548aaa3b1c279d67b60c8d561796116d664a8ffd601b2",
+      "after_sha256": "69e675935016412210d88a633d6c17504df4218af73f4969014ab6cfb2e56cdd",
+      "fields": {
+        "expected_behavior": {
+          "before": "See content on the page.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Affected page",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected page",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which page opens blank?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ],
+          "after": [
+            "Which page opens blank?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-blank-page-v03",
+      "before_sha256": "58a80430fc6d6c6544d59365485fa89af04470204904e2804cb5a361b46e18dc",
+      "after_sha256": "41aa7236581f1cdbb8c7bc9101ee5e84a37f220acc4d5589038ef63b5850e542",
+      "fields": {
+        "expected_behavior": {
+          "before": "See content on the page.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Affected page",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected page",
+            "Expected result",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which page opens blank?",
+            "Which LedgerFlow app version are you using?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which page opens blank?",
+            "What did you expect to happen?",
+            "Which LedgerFlow app version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-blank-page-v05",
+      "before_sha256": "b55a28d530f8a25621e196e9d907602b21c3ab81ae414e4d1215d148b79b343a",
+      "after_sha256": "5d8c6ea7cc7606e8886705d592044c07bbfe3693fc9971cc575ec80549837503",
+      "fields": {
+        "expected_behavior": {
+          "before": "See content on the page.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Affected page",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ],
+          "after": [
+            "Affected page",
+            "Expected result",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which page opens blank?",
+            "Which steps lead to this behavior?",
+            "Which LedgerFlow app version are you using?"
+          ],
+          "after": [
+            "Which page opens blank?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-session-ended-v06",
+      "before_sha256": "a59d7389d9cead37a8fd20f40936645f6169d4af78ddcab604359b5d092050fb",
+      "after_sha256": "d1658ca2912492231a37b778b024cfbf55613b0a4084d11b94c27ae9897d9014",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Remain signed in while opening account settings."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Time elapsed since sign-in",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Time elapsed since sign-in",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "How long had you been signed in before opening account settings?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "How long had you been signed in before opening account settings?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-invoice-download-v06",
+      "before_sha256": "ba3d97fff73ffe9bc81eac2f73de236bd41fb207fe746ee46bc24563c890fc41",
+      "after_sha256": "3f680337d7b1f0cdffa892e34c3c044a08fe23c810201980fed6d9062b280ec4",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Download the invoice."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether another invoice downloads",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether another invoice downloads",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Can you download a different invoice?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Can you download a different invoice?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-chart-tooltip-v06",
+      "before_sha256": "5d8e6af19981302be6de4fa19d8b5cd1b50a367ff2c4335477f0050dad6d4d26",
+      "after_sha256": "8331db689ccd17e935a998e0ca2d2be4597b7a3fdae52c1c9279158c2cfa62f9",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the tooltip and bar label show the same value."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Which chart and data point are affected",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Which chart and data point are affected",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which chart and data point show the tooltip mismatch?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which chart and data point show the tooltip mismatch?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-slack-connect-v06",
+      "before_sha256": "fb1dc6d906789fd66c66fa9146a534c15aafc20ce579b0e126cd98b1aa6a5977",
+      "after_sha256": "59d64521f15c136fbd2a88b83b6460f62300d6bf0a0e30c4d82691b70c636dd4",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Complete the Slack connection."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether Slack connection shows an error",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether Slack connection shows an error",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Is any error shown when the Slack connection returns to setup?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Is any error shown when the Slack connection returns to setup?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-session-ended-v08",
+      "before_sha256": "806f8726830439dbddd5aa3d5a04a4ed328f9f21451c3f3be0b68bd1d1f02959",
+      "after_sha256": "54cb89b0024d9e84ada6cc2f3e4c57b1177e1c2f1f503e6f53b49f5da00e0548",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Remain signed in while opening account settings."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Time elapsed since sign-in",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Time elapsed since sign-in",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "How long had you been signed in before opening account settings?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "How long had you been signed in before opening account settings?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-invoice-download-v08",
+      "before_sha256": "ce2eb96a94658ce9f34db049589723cc0bb0df360fabe1badb5bee72193806bf",
+      "after_sha256": "844a3bb12a8b3d46c86edefbce5b345173a5445dc9ea5243386b038138b76261",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Download the invoice."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether another invoice downloads",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether another invoice downloads",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Can you download a different invoice?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Can you download a different invoice?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-chart-tooltip-v08",
+      "before_sha256": "dd42b69253223978a7bbc882c000df486bdfde61ab3451a7a8951d7bf5af2107",
+      "after_sha256": "f811a2035f1a3108ee5363fb0430852129278d0f21affa71a894dd57961a6027",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the tooltip and bar label show the same value."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Which chart and data point are affected",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Which chart and data point are affected",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which chart and data point show the tooltip mismatch?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which chart and data point show the tooltip mismatch?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-slack-connect-v08",
+      "before_sha256": "9ab36fcfd82e0fc0fc081c1989f750c018d3c62aefd9eb86d60666001debfa7c",
+      "after_sha256": "f5e9eef9572e9d7e908ab27dd0766b21d6de044624d58dd4688349461aed4c0e",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Complete the Slack connection."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether Slack connection shows an error",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether Slack connection shows an error",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Is any error shown when the Slack connection returns to setup?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Is any error shown when the Slack connection returns to setup?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-blank-page-v10",
+      "before_sha256": "e8992a0d1a43550f8516ce2829af1aa878182167f0970e6b7298c42d8eadfd02",
+      "after_sha256": "63f3c1734b0509f9e4576e8f8fd6b25d0ef3703e946033ce83290f873042b379",
+      "fields": {
+        "expected_behavior": {
+          "before": "See content on the page.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Affected page",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected page",
+            "Expected result",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which page opens blank?",
+            "Which steps lead to this behavior?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which page opens blank?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-generic-error-v01",
+      "before_sha256": "a559a7843db4ef1e3510724e61c647ab3ad24e27d7b77242da3d913ad489ece8",
+      "after_sha256": "acf86239adcbcaba230e3928f94b394be14c8b92805d087986910e706989001d",
+      "fields": {
+        "expected_behavior": {
+          "before": "Complete the action without that error.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Action before the error",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Action before the error",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What action did you take before the error appeared?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ],
+          "after": [
+            "What action did you take before the error appeared?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-generic-error-v03",
+      "before_sha256": "44d2e456ce24b2d57bf061b58a7a7b15aca0f1917daa36e4edf835eeb5070508",
+      "after_sha256": "5c90f99bb5ab48ec22262fd12be83549edcabcd968553092a0bcf09decffc338",
+      "fields": {
+        "expected_behavior": {
+          "before": "Complete the action without that error.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Action before the error",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Action before the error",
+            "Expected result",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What action did you take before the error appeared?",
+            "Which LedgerFlow app version are you using?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "What action did you take before the error appeared?",
+            "What did you expect to happen?",
+            "Which LedgerFlow app version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-generic-error-v05",
+      "before_sha256": "4a59dced13f0ecb69de90c598fc12b4919b7e09592917dc188fdb9604218b475",
+      "after_sha256": "911e309995bfd032e8155819fcaf07a58745465835f8b416e44e687c118f2678",
+      "fields": {
+        "expected_behavior": {
+          "before": "Complete the action without that error.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Action before the error",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ],
+          "after": [
+            "Action before the error",
+            "Expected result",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What action did you take before the error appeared?",
+            "Which steps lead to this behavior?",
+            "Which LedgerFlow app version are you using?"
+          ],
+          "after": [
+            "What action did you take before the error appeared?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-mfa-qr-v06",
+      "before_sha256": "75f1ad46ee7de96109566f46670e37c0a7b4fb506e495c050958e632d4666dbc",
+      "after_sha256": "b92862e4f86bd5d14474a6e64e2e35446e1ad424c7ebf3fd619a3cb41bd620f0",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See a QR code for two-factor authentication setup."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether a manual setup key is shown",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether a manual setup key is shown",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Is a manual setup key shown alongside the empty QR image?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Is a manual setup key shown alongside the empty QR image?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-currency-label-v06",
+      "before_sha256": "c7c6d886e6517bcf5a28b08782e702cf61a25e53163019e53b8597072d59dc09",
+      "after_sha256": "655bea3d024617a02c29ab4e356939637ff12845c951080c20e09a899525b15a",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Retain EUR as the invoice currency."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether the amount also changed",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether the amount also changed",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Did the invoice amount change along with its currency label?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Did the invoice amount change along with its currency label?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v06",
+      "before_sha256": "16803ebd8c35e4a93b1c583e80ad8e56a7bb4ec8464297e8b5d230ab6e66a567",
+      "after_sha256": "f96e3410364f3dac6bb4c2e49938276a9328b1c039e23454dc725069d2548b32",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See one revenue summary tile."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether refreshing removes the duplicate",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether refreshing removes the duplicate",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Does the duplicate revenue tile remain after refreshing?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Does the duplicate revenue tile remain after refreshing?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-stripe-sync-v06",
+      "before_sha256": "32cbace2f47b3e41e57f34477eb40ebb4df68686fd6f9cd08d67cd3b908b545f",
+      "after_sha256": "cbcb862dbf1045117816ba03ccdf87ff714f1c00021d7eef84dae88623dc21d1",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Sync the Stripe connection."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Last successful Stripe sync",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Last successful Stripe sync",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "When did the Stripe connection last sync successfully?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "When did the Stripe connection last sync successfully?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-mfa-qr-v08",
+      "before_sha256": "3326535b91ee025e51e37a0e502b52ee1b987b272729c9272b76f133d6387f9c",
+      "after_sha256": "17f2dc8dc3d6b717258323233c917c4b3f1eddd220da25f8a0daaad837e7d563",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See a QR code for two-factor authentication setup."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether a manual setup key is shown",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether a manual setup key is shown",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Is a manual setup key shown alongside the empty QR image?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Is a manual setup key shown alongside the empty QR image?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-currency-label-v08",
+      "before_sha256": "fc087599f7c3ba1a9fe72ee04da0b463464ead80a38bb198f1ad6dffd0586707",
+      "after_sha256": "9d3282d482d5b64bfae6a43da91bee71385e237f9cb21d6d461b03cc6d5a2cd1",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Retain EUR as the invoice currency."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether the amount also changed",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether the amount also changed",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Did the invoice amount change along with its currency label?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Did the invoice amount change along with its currency label?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-duplicate-tiles-v08",
+      "before_sha256": "fc82668459b9c21289708f9a2355721de9d2957b71b3f6ab23362243c2cb0e87",
+      "after_sha256": "1d76029678a64f8fac5c42a72016839430d92ed8477fea97beef256fd7eb48a3",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See one revenue summary tile."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether refreshing removes the duplicate",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether refreshing removes the duplicate",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Does the duplicate revenue tile remain after refreshing?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Does the duplicate revenue tile remain after refreshing?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-stripe-sync-v08",
+      "before_sha256": "e8bf2d0e477d6269f1144e6660c36fad7020b476149d2de9ec1c803df362a7d1",
+      "after_sha256": "8ac8a2ee9e579a158ec56caf031508b7b226ac45f0ee375b9758e19a349ff079",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Sync the Stripe connection."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Last successful Stripe sync",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Last successful Stripe sync",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "When did the Stripe connection last sync successfully?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "When did the Stripe connection last sync successfully?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-generic-error-v10",
+      "before_sha256": "c3ed6cb23654cf4d7f96400cdd908dbc9c2f7a440890cdc3ebab1d866b4bb3e3",
+      "after_sha256": "22dc5c756d20b6db8203dd60597259b49adef03e09f7ce88c20013884cb5c04d",
+      "fields": {
+        "expected_behavior": {
+          "before": "Complete the action without that error.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Action before the error",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Action before the error",
+            "Expected result",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What action did you take before the error appeared?",
+            "Which steps lead to this behavior?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "What action did you take before the error appeared?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-loading-page-v01",
+      "before_sha256": "ece8112e653a7495a844693b409ee340835a36c5db38e472be9fd9e9d249fd0e",
+      "after_sha256": "63d859b03239520bdb68d8a8eeae97a9b7c09454559b9eefb54dff069a46e222",
+      "fields": {
+        "expected_behavior": {
+          "before": "See the page content.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Affected page",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected page",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which page keeps showing the loading indicator?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ],
+          "after": [
+            "Which page keeps showing the loading indicator?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-loading-page-v03",
+      "before_sha256": "ac940435621e7fff1b9ae5888acf34412d0d2305593ba2e047d296d5c9e50615",
+      "after_sha256": "3303b6075882d2c3e3fb37334a910ed46b51ba3a871ebb29100d312457f82c01",
+      "fields": {
+        "expected_behavior": {
+          "before": "See the page content.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Affected page",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected page",
+            "Expected result",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which page keeps showing the loading indicator?",
+            "Which LedgerFlow app version are you using?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which page keeps showing the loading indicator?",
+            "What did you expect to happen?",
+            "Which LedgerFlow app version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-loading-page-v05",
+      "before_sha256": "b95b88220fde90f4328bc2821b05c9ee33fc4e719e59d913868898b18298657b",
+      "after_sha256": "28a34407eb387e7868e0242e31f6c9cd4b70f5d11b7c96c604d8fc642dbf4f39",
+      "fields": {
+        "expected_behavior": {
+          "before": "See the page content.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Affected page",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ],
+          "after": [
+            "Affected page",
+            "Expected result",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which page keeps showing the loading indicator?",
+            "Which steps lead to this behavior?",
+            "Which LedgerFlow app version are you using?"
+          ],
+          "after": [
+            "Which page keeps showing the loading indicator?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-google-signin-v06",
+      "before_sha256": "6bc294955bcd14b643904a512e3a4078a92f0ccd1963a02e8342adab8c8dfb0c",
+      "after_sha256": "b9bde419fabdac35489d7c650f4f00bc305f49bc8d507e2da08adbf8c3725e84",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Open the LedgerFlow account after Google sign-in."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether an error is displayed",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether an error is displayed",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Is any error displayed when Google sign-in returns you to the sign-in screen?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Is any error displayed when Google sign-in returns you to the sign-in screen?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-invoice-filter-v06",
+      "before_sha256": "c798407a07603fa313a061a2e8b2255583d9d945213de1ec739dedac3443ef74",
+      "after_sha256": "77531e1a067e23f1ce0b6856e06cf90985f040ea9a81eec18350587e128eb7e2",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See only paid invoices with the Paid filter."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether the filter selection remains visible",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether the filter selection remains visible",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Does the Paid filter remain selected while unpaid invoices are visible?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Does the Paid filter remain selected while unpaid invoices are visible?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-empty-chart-v06",
+      "before_sha256": "679db2876c6e268df068ed5dec630b76e3d9daa867dee6f714672f4807a1adc2",
+      "after_sha256": "8e7f0ffd44b46d2e47746aedf5288c9bd38b696c5c70bed8525b5894c7bf9858",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See revenue bars for the selected period."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Selected chart period",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Selected chart period",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which period did you select for the revenue chart?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which period did you select for the revenue chart?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-save-settings-v06",
+      "before_sha256": "e87d1499c42c0bd21774673afba02f6b954e482e9055c01dfd32c08bbda92a3d",
+      "after_sha256": "3a33a466232ce00184259308793eeda6c864648c2d85422fa3be7f39c5b1a825",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Retain the saved integration settings."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Which integration setting reverts",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Which integration setting reverts",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which provider and setting revert after saving?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which provider and setting revert after saving?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-google-signin-v08",
+      "before_sha256": "0b17e63f33cf45c97db820f6669aecf2c572f1035138536c8d3f445aec8a291b",
+      "after_sha256": "5c28b004302c7773cb4fba6b96457304c19befc965715f728e3e6c8a1b1975ee",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Open the LedgerFlow account after Google sign-in."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether an error is displayed",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether an error is displayed",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Is any error displayed when Google sign-in returns you to the sign-in screen?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Is any error displayed when Google sign-in returns you to the sign-in screen?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-invoice-filter-v08",
+      "before_sha256": "a37162156b529fb1e5ce5cd56c58aa198a482279a5fd0fd5b2fe255efd400033",
+      "after_sha256": "ff2e336e545264568d0d09aee147cf394bfc6c3f20a183fff31ee0beebf145e2",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See only paid invoices with the Paid filter."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether the filter selection remains visible",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether the filter selection remains visible",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Does the Paid filter remain selected while unpaid invoices are visible?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Does the Paid filter remain selected while unpaid invoices are visible?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-empty-chart-v08",
+      "before_sha256": "bfb6dcf5ec1a366f77d8f95d7a950ac1f7de42a4661b0a82f8c4cad0d6283002",
+      "after_sha256": "263d74409417b5330f73969e6688099f09c43cc453ff220c36814b35d0051b9e",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See revenue bars for the selected period."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Selected chart period",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Selected chart period",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which period did you select for the revenue chart?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which period did you select for the revenue chart?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-save-settings-v08",
+      "before_sha256": "3793ed7df7b47a8a3919502025dd2b5406d4a92487382ecd1fdeec1745b352a7",
+      "after_sha256": "9b0374f0a00bafb72caea3ad774434d9a8a70b5ea7df63b31c5401d911bd1ffa",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Retain the saved integration settings."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Which integration setting reverts",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Which integration setting reverts",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which provider and setting revert after saving?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which provider and setting revert after saving?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-loading-page-v10",
+      "before_sha256": "e92f6af7cf1981f798fc3426e00f9caaa8e7f633a2c67bfee12011d80b24ba12",
+      "after_sha256": "562f22ebf77d506a93e415cba074bb8e183101ee3208b017aedbc473f226ee50",
+      "fields": {
+        "expected_behavior": {
+          "before": "See the page content.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Affected page",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected page",
+            "Expected result",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which page keeps showing the loading indicator?",
+            "Which steps lead to this behavior?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which page keeps showing the loading indicator?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-invite-link-v06",
+      "before_sha256": "fb4b88b40d410919efb93a307ac47442e2c5a617fcce9b0652558a6f8d428005",
+      "after_sha256": "6db27868be6cd7872b77c6447411f7bf80d42766e7e7a2d04100f8c365804c82",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the account invitation form."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Age of the invitation link",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Age of the invitation link",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "When did you receive the invitation email?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "When did you receive the invitation email?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-invoice-draft-v06",
+      "before_sha256": "48616df21f544927a108d6b58db246868f1d664213ab068eacfb0232a65247e6",
+      "after_sha256": "78633eb2a35657fa89be3627b73a123dcd752448d920a2d2ac7b0ea84f88bc4f",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Retain the saved line-item description."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether other invoice fields changed",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether other invoice fields changed",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Did any other fields change when you reopened the invoice draft?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Did any other fields change when you reopened the invoice draft?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-date-filter-v06",
+      "before_sha256": "3c11b710f1bf588299fec231db220841df78ea4e9de4c715e25212d2cafba5fb",
+      "after_sha256": "c31a126a1e86e35778d491e334b3ff60d12e38d0f5b5582dfe11c79acf0b73f6",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the chart update to the selected dates."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Date ranges compared",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Date ranges compared",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which date ranges did you compare?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which date ranges did you compare?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-connection-status-v06",
+      "before_sha256": "fd30f632c9e8301641ec4d1351422ab044d3be1448614f1ffe20579c329f1386",
+      "after_sha256": "aee13510d7376c605c8820278b468fd9c7015b83820ffcd9a0d51cb6cd66e079",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the same connection status in the list and details."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Affected integration provider",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected integration provider",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which integration provider shows different statuses?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which integration provider shows different statuses?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unsaved-changes-v06",
+      "before_sha256": "cfd734d511b1ca0d26b5e9cbdbc3779916a596ca40468084d67ea42c7c175fd7",
+      "after_sha256": "21001bedb9adea001fbbeda8102b1dbca42aab6d8630d2ddda1690a7ec0d85b2",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Retain the changes that were saved."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Page and changed field",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Page and changed field",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which page and field lost your changes?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which page and field lost your changes?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-invite-link-v08",
+      "before_sha256": "e9f2a5abc90cb68175e65e11176c1fb2420feecbbd0ab2637ceaa90d81095857",
+      "after_sha256": "4a57fa25548d65f487737b0a00ca5d29603b6f543b18a68d578dd70bff6f38d4",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the account invitation form."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Age of the invitation link",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Age of the invitation link",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "When did you receive the invitation email?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "When did you receive the invitation email?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-invoice-draft-v08",
+      "before_sha256": "edeea32e7748f43b868c86af74b6331b0083223fe272ebd76a3d5b9e126e4a02",
+      "after_sha256": "7b8e5344adcbbc729b6e5222dd645cf0599dab89769094f2e2d8818e1b428daa",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Retain the saved line-item description."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether other invoice fields changed",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether other invoice fields changed",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Did any other fields change when you reopened the invoice draft?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Did any other fields change when you reopened the invoice draft?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-date-filter-v08",
+      "before_sha256": "f46d225997b4808d06055642cd94b885d1120115ec25f1d20191d0aab9015ca0",
+      "after_sha256": "3ce35c1537b7ab73ab71848de1220263545cc11ebf478c11a48ad1bd6cb1f6f0",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the chart update to the selected dates."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Date ranges compared",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Date ranges compared",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which date ranges did you compare?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which date ranges did you compare?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-connection-status-v08",
+      "before_sha256": "cbb2b2a8eeb1047fe8f56ef9e046f454c15a57bc26978fb1103c9050afe1adcf",
+      "after_sha256": "2e848b636dd77b52eed289c1f81ebbbf5ef0726f7a9b9704ed8c44b44b24ea5f",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the same connection status in the list and details."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Affected integration provider",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Affected integration provider",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which integration provider shows different statuses?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which integration provider shows different statuses?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unsaved-changes-v08",
+      "before_sha256": "33e2c664dfdbb9b73916dc1ae3a70fa26d7b9d5877d8c2ef998aeba13003d3a3",
+      "after_sha256": "fa1641a4ccd1be3aa161454269dd8adf1ad8096e5d356f87a697064ea8311bd3",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Retain the changes that were saved."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Page and changed field",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Page and changed field",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which page and field lost your changes?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which page and field lost your changes?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unresponsive-button-v01",
+      "before_sha256": "5f9942dfd045272c3feb38b1c0306dbd4061fdeea26c0902202ddcd73f382361",
+      "after_sha256": "9893842b68e3435fd0e200de5d4cbcd299c0327cf8474243a752f3548bb75e21",
+      "fields": {
+        "expected_behavior": {
+          "before": "See a response from the button.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Button and page",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Button and page",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which button and page are affected?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ],
+          "after": [
+            "Which button and page are affected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unresponsive-button-v03",
+      "before_sha256": "d547f6484eca535e84e835a3e7bc16bf0039909a09107fbbdbb817ebffea3df3",
+      "after_sha256": "d710689d1d5a831b132f73afc0f7c14093fbf951bff060588e99b40345828abc",
+      "fields": {
+        "expected_behavior": {
+          "before": "See a response from the button.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Button and page",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Button and page",
+            "Expected result",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which button and page are affected?",
+            "Which LedgerFlow app version are you using?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which button and page are affected?",
+            "What did you expect to happen?",
+            "Which LedgerFlow app version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unresponsive-button-v05",
+      "before_sha256": "aced40824ac23aafd47de2e6b9a96c85c3488d2eb9d50dd846c87623d3b94e45",
+      "after_sha256": "8276a0525d0be3f59d4096c8f6f384b75b07adc6a23188187a58f03379d1772d",
+      "fields": {
+        "expected_behavior": {
+          "before": "See a response from the button.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Button and page",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ],
+          "after": [
+            "Button and page",
+            "Expected result",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which button and page are affected?",
+            "Which steps lead to this behavior?",
+            "Which LedgerFlow app version are you using?"
+          ],
+          "after": [
+            "Which button and page are affected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-account-email-v06",
+      "before_sha256": "82819044a33433b1b9886dd71758c273d94e8a44a496e4f63582549771236102",
+      "after_sha256": "4df6b99b4f93f5095a5339f7289ed1652a8e0d4cb8b6e41a243744703a1d2733",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the new email address in the account."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether an email confirmation was requested",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether an email confirmation was requested",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Did LedgerFlow ask you to confirm the new email address?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Did LedgerFlow ask you to confirm the new email address?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-invoice-email-v06",
+      "before_sha256": "280f57ae7e3224afe3dcc0ecf7f9de602b0f4f380ade919de1d206ed964d8901",
+      "after_sha256": "f87a5e626824a0e7efd51fe6cf2536c7e320da4493cdb2132e8a401839af47d2",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Send the invoice email."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Additional send-error details",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Additional send-error details",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Are any additional details shown with 'Send failed'?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Are any additional details shown with 'Send failed'?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-refresh-button-v06",
+      "before_sha256": "95f553cbee22bae0989ed6fd4717721e63ecc70f810b4d13441751f4487b14ca",
+      "after_sha256": "e4b0a253832f4d11e34f0af0fdc3481e7c00dd86e125f99712c28638ec06dea0",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Refresh the dashboard data."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether the dashboard shows an error",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether the dashboard shows an error",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Is any error shown when you press Refresh?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Is any error shown when you press Refresh?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-sheets-stale-v06",
+      "before_sha256": "e0a395558c73c30f65888cfeef46705049df1d0b5cc8158902a2eac697a309d3",
+      "after_sha256": "65ae672d35c2191765369baa36c862a5bfd63d17fa30cdd99964b2d7f5a8815d",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the updated Google Sheets values after syncing."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Which sheet values remain old",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Which sheet values remain old",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which sheet values remain unchanged after syncing?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which sheet values remain unchanged after syncing?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-account-email-v08",
+      "before_sha256": "aa576556299720f82569f3a8bfe0b440e9a7614884eb267927d25e9e9058d7a3",
+      "after_sha256": "b3e8543b8e9632e886bed6609bfc81f32c163382bf5b381dd1863a45ead98b59",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the new email address in the account."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether an email confirmation was requested",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether an email confirmation was requested",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Did LedgerFlow ask you to confirm the new email address?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Did LedgerFlow ask you to confirm the new email address?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-invoice-email-v08",
+      "before_sha256": "32f0c14baf4a06b967a616ebe246d38d0de072a2e6dd1312f24e8d38a3e908dc",
+      "after_sha256": "7e836f810e2e4fbf8d196dc42bc7fc9378442ea98c76f73de58f7e7cc4963393",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Send the invoice email."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Additional send-error details",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Additional send-error details",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Are any additional details shown with 'Send failed'?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Are any additional details shown with 'Send failed'?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-refresh-button-v08",
+      "before_sha256": "3f53d0e5dcb9c9ec4f43c347fef7e962528f86edfc2bb04b9d2efe7095784c3c",
+      "after_sha256": "1f335a4786474a44b12fdd1ba51faaffafb4a5870adc38e622cc4d698b5c02f9",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Refresh the dashboard data."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether the dashboard shows an error",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether the dashboard shows an error",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Is any error shown when you press Refresh?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Is any error shown when you press Refresh?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-sheets-stale-v08",
+      "before_sha256": "ece7c1d18cc4788b4517305b9ec2590f1cbad4d9dfbdd98953727eae18c56848",
+      "after_sha256": "f631443ba0ef3eed0a3211c27498e0c76f9c550f30eb5c3c3a3491d79577c547",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the updated Google Sheets values after syncing."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Which sheet values remain old",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Which sheet values remain old",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which sheet values remain unchanged after syncing?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which sheet values remain unchanged after syncing?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unresponsive-button-v10",
+      "before_sha256": "bc8e65d6ea36e606af9f8e7f6e22c8a3b927b6fc9dba1b5d72995d93859ed355",
+      "after_sha256": "19b416f5a44dd7b15b73ca622dbcfe2e71deb8b9fbfa7b69dfea08f3737555b1",
+      "fields": {
+        "expected_behavior": {
+          "before": "See a response from the button.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Button and page",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Button and page",
+            "Expected result",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which button and page are affected?",
+            "Which steps lead to this behavior?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which button and page are affected?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unexpected-navigation-v01",
+      "before_sha256": "4d1da80f4564672d9597332589b218c2930c96a851fbe08076c7328e5cadae8b",
+      "after_sha256": "bf0a6419c7b8192baac61fc1eff36932268d64be73b4970814c194039098718f",
+      "fields": {
+        "expected_behavior": {
+          "before": "Open the page that was intended to visit.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Link and intended destination",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Link and intended destination",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which link did you follow, and which page did you expect?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ],
+          "after": [
+            "Which link did you follow, and which page did you expect?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unexpected-navigation-v03",
+      "before_sha256": "775b9972525b540fc49a89b7af0bc77244b3b1ae327a08fe28870508c9183d62",
+      "after_sha256": "8b81a1625f239153dfbe3434d52da1c369fbdc6dd71b15e619695498bc37ba92",
+      "fields": {
+        "expected_behavior": {
+          "before": "Open the page that was intended to visit.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Link and intended destination",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Link and intended destination",
+            "Expected result",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which link did you follow, and which page did you expect?",
+            "Which LedgerFlow app version are you using?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which link did you follow, and which page did you expect?",
+            "What did you expect to happen?",
+            "Which LedgerFlow app version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unexpected-navigation-v05",
+      "before_sha256": "6c272b65467fb028f376ba78d093e52a8feb259fbe2f4614bb78e228932d587b",
+      "after_sha256": "13aa2b8e92bbbb863205aa9699fb68cbd656313d323d056a1f15b4f176ee6882",
+      "fields": {
+        "expected_behavior": {
+          "before": "Open the page that was intended to visit.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Link and intended destination",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ],
+          "after": [
+            "Link and intended destination",
+            "Expected result",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which link did you follow, and which page did you expect?",
+            "Which steps lead to this behavior?",
+            "Which LedgerFlow app version are you using?"
+          ],
+          "after": [
+            "Which link did you follow, and which page did you expect?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-reset-link-v06",
+      "before_sha256": "73454dc65c7ad4bbfc7bd4dcb8c4864265b9178f1ef40cf8e65c72a35bff6304",
+      "after_sha256": "186e0226d2259b90374ad07fdfa28e7ba1a51e7145016f5fcbfbdda18917ed34",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Open the password reset form."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Age of the reset link",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Age of the reset link",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "How long after receiving the email did you open the link?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "How long after receiving the email did you open the link?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-payment-pending-v06",
+      "before_sha256": "baa07f44ae21898e652667c5583a6d586787bf31e6f350e482cb92ee400e75eb",
+      "after_sha256": "a1c526673d578272f05bf04eb0beeea18ea2c5cf52f600ca9eb468f98abbcb1c",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the confirmed payment marked as completed."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Time elapsed since confirmation",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Time elapsed since confirmation",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "How long ago did you receive the payment confirmation?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "How long ago did you receive the payment confirmation?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-saved-view-v06",
+      "before_sha256": "db7b15b5531c3e8a841be8ee091cd7978c72c37d359c252a11a84af2e7a0b37f",
+      "after_sha256": "fb44e3fc700c5bc5cf79b91a6ce6bdcdc591453c15f7a35a729001288063a37d",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Keep the selected dashboard view."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Selected view",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Selected view",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which dashboard view did you select?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which dashboard view did you select?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-duplicate-sync-v06",
+      "before_sha256": "53f75c78728b3d1cbdb6367101b39c88166e146b14857e6fa7493feb6715a9d6",
+      "after_sha256": "01b28142a7284f2d62d8b0923be32b588a82aa0cda9638819a0ae95f85a92342",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See each synced record once."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether duplicate records share an identifier",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether duplicate records share an identifier",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Do the duplicate sync records have the same identifier?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Do the duplicate sync records have the same identifier?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-reset-link-v08",
+      "before_sha256": "a312c5a0d0bc0eaaa822363d8354853680a050dfc5beb901394ee36ba9f1ceae",
+      "after_sha256": "0e8c4844d307df5bf8f6dd2da37bdeeed4709b783d9c8601b35556ec2b15abb2",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Open the password reset form."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Age of the reset link",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Age of the reset link",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "How long after receiving the email did you open the link?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "How long after receiving the email did you open the link?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-payment-pending-v08",
+      "before_sha256": "93c49d71b164fadeff388ce0d1679975292f8ac8e781e73607ce33262ceb8e2c",
+      "after_sha256": "145fdbaf1b82b295ae0478c5d523513defbc20c89b7f74590b7ea8357af4be63",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the confirmed payment marked as completed."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Time elapsed since confirmation",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Time elapsed since confirmation",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "How long ago did you receive the payment confirmation?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "How long ago did you receive the payment confirmation?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-saved-view-v08",
+      "before_sha256": "793dbdf6b6755d633c1ac27716db8bddb92528ac3576259eca15a2eb38bf95d7",
+      "after_sha256": "c411f0387fd5afa7349acf5546ee9ed51774c2382ce5aa5e72153985b9c7d017",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Keep the selected dashboard view."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Selected view",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Selected view",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which dashboard view did you select?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which dashboard view did you select?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-duplicate-sync-v08",
+      "before_sha256": "a971c0626ecc73ff7aefd10a185cdcdf82707a15709c2b187e76196ffb56437a",
+      "after_sha256": "e4eb5851e674a10a1168cd1932c446615b128ecd87c3774bc098e3b446983f19",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See each synced record once."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether duplicate records share an identifier",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether duplicate records share an identifier",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Do the duplicate sync records have the same identifier?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Do the duplicate sync records have the same identifier?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-unexpected-navigation-v10",
+      "before_sha256": "9c939623d9d61792833dc4eb784323640105c51dc27f790cad24fee3af5bd19b",
+      "after_sha256": "7cde0f5d1fccb9a42c27770315687df3e166f5597a1a910b1e14be6672ec5ab2",
+      "fields": {
+        "expected_behavior": {
+          "before": "Open the page that was intended to visit.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Link and intended destination",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Link and intended destination",
+            "Expected result",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which link did you follow, and which page did you expect?",
+            "Which steps lead to this behavior?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "Which link did you follow, and which page did you expect?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-repeated-message-v01",
+      "before_sha256": "61b5bc34c235eba97ce6dacd1886cf5d85989fd08af2a396fb59fa5691df1be6",
+      "after_sha256": "d94ad5efc27c1316ed12716c9a7e5ac4744eef492fff1e7bee18e3d9897b8f78",
+      "fields": {
+        "expected_behavior": {
+          "before": "See the message once.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Message text and page",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Message text and page",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What does the repeated message say, and on which page does it appear?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ],
+          "after": [
+            "What does the repeated message say, and on which page does it appear?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-repeated-message-v03",
+      "before_sha256": "d79535808e7135fee5b1150b35cdc7a4cc9eaed717087ebcd4149d44002b8489",
+      "after_sha256": "dce8adc0de0c74224a8705078085c4a08744c1e028671d271153aecc6414e1bf",
+      "fields": {
+        "expected_behavior": {
+          "before": "See the message once.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Message text and page",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Message text and page",
+            "Expected result",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What does the repeated message say, and on which page does it appear?",
+            "Which LedgerFlow app version are you using?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "What does the repeated message say, and on which page does it appear?",
+            "What did you expect to happen?",
+            "Which LedgerFlow app version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-repeated-message-v05",
+      "before_sha256": "e0d821b19599474dbcdb17792d294b0cd3c9482f7f966a04d93698a1ecb2a459",
+      "after_sha256": "a12e0ef6fc45de7b97f1e6c7f6407cb21d32574b21dd80539c307c5e7712cc43",
+      "fields": {
+        "expected_behavior": {
+          "before": "See the message once.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Message text and page",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ],
+          "after": [
+            "Message text and page",
+            "Expected result",
+            "Actions leading to the issue",
+            "LedgerFlow app version"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What does the repeated message say, and on which page does it appear?",
+            "Which steps lead to this behavior?",
+            "Which LedgerFlow app version are you using?"
+          ],
+          "after": [
+            "What does the repeated message say, and on which page does it appear?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-signout-v06",
+      "before_sha256": "507f858623d6685371b7ec7a52edc5aefba9794ff1c1d0c2564e1558f0efd2a6",
+      "after_sha256": "42c467549e09fe30cf91603fe962424eb10630e6d089fc41a2654a6f11f90b0d",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Be signed out of the account."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether refreshing changes the sign-in state",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether refreshing changes the sign-in state",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Are you still signed in after refreshing the page?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Are you still signed in after refreshing the page?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-payment-duplicate-v06",
+      "before_sha256": "9cfdbc114900de1186e28005bee63727f8782fb978d6e88165f07f7cf671c107",
+      "after_sha256": "6f80ae00e2921fce26697dcbd5faecbc53b3290b6e16a8788c8d2721a0cc0304",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See one entry for that payment."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether both entries share a reference",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether both entries share a reference",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Do the two payment entries have the same reference?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Do the two payment entries have the same reference?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-total-mismatch-v06",
+      "before_sha256": "db941f4244bc945b0ee93b33d7cf6d825597b4bc3c44332c427d57b16fa0500a",
+      "after_sha256": "dd529d975e20e759b19326cff15e1f12cedb719344378cb28b18a0e19c15cdc2",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See matching revenue values for the same period."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether both values use the same period",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether both values use the same period",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Do the total and chart use the same date range?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Do the total and chart use the same date range?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-paused-sync-v06",
+      "before_sha256": "523f72e1da71527e9d5bf317d0e73afc9718f585ff5f614654ba5bab14a5f870",
+      "after_sha256": "a6fe15991bd8b494e37caf49dd15369f27ea6ec68306530d49820f9a1f92e629",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Stop new sync results while the integration is paused."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Time of the new sync results",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Time of the new sync results",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Were the new sync results created before or after you paused syncing?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Were the new sync results created before or after you paused syncing?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-signout-v08",
+      "before_sha256": "9121715868e46d177809c8f0475d55ec7be635adef22dea5d1d07957438e6be1",
+      "after_sha256": "71d45321c7b580b6f6c9b035ff7d5ac070518ddfcb004f15510e50b55bde26a2",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Be signed out of the account."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether refreshing changes the sign-in state",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether refreshing changes the sign-in state",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Are you still signed in after refreshing the page?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Are you still signed in after refreshing the page?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-payment-duplicate-v08",
+      "before_sha256": "d6edc607987d3468e003dd52bd113bb6bc6fdb0f18d01b534819822796d6f3f4",
+      "after_sha256": "0af2e7c7b0eec8a48612ffe1957d95764ed8baacc9d3a26197d8820d0591444b",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See one entry for that payment."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether both entries share a reference",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether both entries share a reference",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Do the two payment entries have the same reference?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Do the two payment entries have the same reference?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-total-mismatch-v08",
+      "before_sha256": "32c59b5b2fb6e304595d3de5fbae40d082a6c03dcef47496e31eb1e31b2ed410",
+      "after_sha256": "317fdc257a0a0f8bc868cf9d9fa33e321fdbe52f645231fe9cacdf2b922f0abf",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See matching revenue values for the same period."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether both values use the same period",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether both values use the same period",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Do the total and chart use the same date range?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Do the total and chart use the same date range?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-paused-sync-v08",
+      "before_sha256": "a515cd65f188c0160cb976e90b4bafbe72e48bc65f7adc7f17c6d9c33c725191",
+      "after_sha256": "12f1fb8f31b83971baf3b982f2c9495dc6c2add885c3f21a2b61114ff6f80559",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Stop new sync results while the integration is paused."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Time of the new sync results",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Time of the new sync results",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Were the new sync results created before or after you paused syncing?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Were the new sync results created before or after you paused syncing?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-repeated-message-v10",
+      "before_sha256": "7330dcc1585ccd957cfd10597304487aa8cd50111c50f7418d905b4415335d21",
+      "after_sha256": "a5d2236d4739376443f47b00857b859b5c3a0cb42207cf9927b8eb2f896ebdd0",
+      "fields": {
+        "expected_behavior": {
+          "before": "See the message once.",
+          "after": null
+        },
+        "expected_behavior_basis": {
+          "before": "Inferred",
+          "after": "Unknown"
+        },
+        "missing_information": {
+          "before": [
+            "Message text and page",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Message text and page",
+            "Expected result",
+            "Actions leading to the issue",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What does the repeated message say, and on which page does it appear?",
+            "Which steps lead to this behavior?",
+            "When did you first notice this behavior?"
+          ],
+          "after": [
+            "What does the repeated message say, and on which page does it appear?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-verification-code-v06",
+      "before_sha256": "9ecf2bbf372400573ae45a3670a3bfc4a570921972e87c4a30bc5bcab9bc2b25",
+      "after_sha256": "68b3d1e2865f5a24cc28e57eae235245c1e978132699e3a308ebc83f3760bb48",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Verify the email using the supplied code."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Displayed verification error",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Displayed verification error",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What error is shown when you submit the verification code?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "What error is shown when you submit the verification code?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-receipt-blank-v06",
+      "before_sha256": "1bbc36a6f5e30a5dc1adbc17159afc2d88bb1295a7abea4eb504e2b983574855",
+      "after_sha256": "e34dcd8e7f148fa27c364277e03dd653a3a35e8f7a3eebefa6513f1b2f554f59",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the payment receipt."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether another receipt opens",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether another receipt opens",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Can you open a receipt for a different payment?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Can you open a receipt for a different payment?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-dashboard-export-v06",
+      "before_sha256": "eb76cfc3e179f51263c67be85d16a06652c2fd525d537f4717c48aeabe7ef642",
+      "after_sha256": "5a105494c599b6fb94f5eb0d4a2fc68ffefa60c125c06e95b1f6a8b732706eed",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Download the dashboard chart export."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Chart export format",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Chart export format",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which export format did you choose for the chart?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which export format did you choose for the chart?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-zapier-test-v06",
+      "before_sha256": "45b8133239a2a6a92e1f249256d2914571d391b9591de67e3d8b12ec4c3a1ffe",
+      "after_sha256": "753c61296b60484a817ab4909c10bee0e312e1cf94a53d71d59d852b039714a2",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Complete the Zapier connection test."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Additional Zapier test-error details",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Additional Zapier test-error details",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Are any additional error details shown for the failed Zapier test?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Are any additional error details shown for the failed Zapier test?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-empty-download-v06",
+      "before_sha256": "055c1d2107c926929a28426c85495ff974cfd3f3abf24f1c4135e039e30fa079",
+      "after_sha256": "fe4b53fc270eed1b962e6f340b14ec23b2ff8578a4f0bd4369b5e7ad0c0ddc53",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Download a file containing data."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Download action and file type",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Download action and file type",
+            "Actions leading to the issue",
+            "Browser and operating system",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What were you downloading, and which file type did you choose?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "What were you downloading, and which file type did you choose?",
+            "Which steps lead to this behavior?",
+            "Which browser and operating system are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "authentication-verification-code-v08",
+      "before_sha256": "f7683c3877ed42348ba0be640af6ce24b667f3d1689d332b76bbede7b49b0f52",
+      "after_sha256": "6e68792ffd34c96431b8864a4e24ed2ad2dd31097c6cd0d57cbee7214e510c16",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Verify the email using the supplied code."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Displayed verification error",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Displayed verification error",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What error is shown when you submit the verification code?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "What error is shown when you submit the verification code?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "billing-receipt-blank-v08",
+      "before_sha256": "c103b6b174f26982dfd187d41d80daf0d1b438e93d6ff82a33448bc874c65204",
+      "after_sha256": "35e2da91d8a309c2382e0027a3882c5a2cfef82ca1d397decb8e3825e9c80ca8",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "See the payment receipt."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Whether another receipt opens",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Whether another receipt opens",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Can you open a receipt for a different payment?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Can you open a receipt for a different payment?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "dashboard-dashboard-export-v08",
+      "before_sha256": "fe1993b94495c737a18c8660503930a22fa3bc399d71d103e43f51c3c088f589",
+      "after_sha256": "041bec2fcdd4b33e801a2ddeabb88e38d44780bf6528d6c71c1480e1fc378b57",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Download the dashboard chart export."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Chart export format",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Chart export format",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Which export format did you choose for the chart?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Which export format did you choose for the chart?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "integrations-zapier-test-v08",
+      "before_sha256": "a0a68975b6b98a77502fc91c2642ee186f82e9f0e064442fec51d81ab6f04fa8",
+      "after_sha256": "ef0b167f436f92334f33de3dcc1731cedbf4355b66b66e62fbd08a7dd64a761a",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Complete the Zapier connection test."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Additional Zapier test-error details",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Additional Zapier test-error details",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "Are any additional error details shown for the failed Zapier test?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "Are any additional error details shown for the failed Zapier test?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    },
+    {
+      "id": "unknown-empty-download-v08",
+      "before_sha256": "d507ba93b0e9ade676d0f5f7811f7109e35fb97f475fadf271134a19c70a4cf5",
+      "after_sha256": "8455ba2a5f0b6ad21e7f2bb48678737119c07fa881069503e30d61e5b2143bf8",
+      "fields": {
+        "expected_behavior": {
+          "before": null,
+          "after": "Download a file containing data."
+        },
+        "expected_behavior_basis": {
+          "before": "Unknown",
+          "after": "Inferred"
+        },
+        "missing_information": {
+          "before": [
+            "Download action and file type",
+            "Expected result",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ],
+          "after": [
+            "Download action and file type",
+            "Actions leading to the issue",
+            "Browser version",
+            "Operating system",
+            "LedgerFlow app version",
+            "When the issue was first noticed"
+          ]
+        },
+        "follow_up_questions": {
+          "before": [
+            "What were you downloading, and which file type did you choose?",
+            "What did you expect to happen?",
+            "Which steps lead to this behavior?"
+          ],
+          "after": [
+            "What were you downloading, and which file type did you choose?",
+            "Which steps lead to this behavior?",
+            "Which Firefox version are you using?"
+          ]
+        }
+      }
+    }
+  ],
+  "split_ids": {
+    "train": [
+      "integrations-sheets-stale-v02",
+      "billing-bulk-export-v06",
+      "billing-receipt-blank-v02",
+      "dashboard-dashboard-export-v01",
+      "integrations-sheets-stale-v06",
+      "dashboard-chart-tooltip-v09",
+      "dashboard-saved-view-v10",
+      "billing-subscription-page-v04",
+      "integrations-paused-sync-v08",
+      "integrations-zapier-test-v08",
+      "dashboard-saved-view-v09",
+      "integrations-disconnect-v07",
+      "authentication-signin-loop-v07",
+      "unknown-empty-download-v01",
+      "unknown-unsaved-changes-v10",
+      "unknown-blank-page-v05",
+      "authentication-session-ended-v07",
+      "dashboard-total-mismatch-v06",
+      "billing-bulk-export-v04",
+      "authentication-reset-link-v06",
+      "integrations-save-settings-v05",
+      "dashboard-dashboard-export-v04",
+      "integrations-paused-sync-v09",
+      "authentication-invite-link-v09",
+      "authentication-signout-v10",
+      "authentication-verification-code-v07",
+      "dashboard-saved-view-v02",
+      "authentication-signout-v05",
+      "unknown-blank-page-v07",
+      "unknown-repeated-message-v04",
+      "integrations-paused-sync-v07",
+      "integrations-paused-sync-v06",
+      "integrations-sheets-stale-v10",
+      "dashboard-date-filter-v08",
+      "authentication-reset-link-v07",
+      "authentication-signin-loop-v06",
+      "unknown-unexpected-navigation-v07",
+      "integrations-connection-status-v06",
+      "authentication-reset-link-v09",
+      "integrations-sheets-stale-v03",
+      "unknown-list-empty-v02",
+      "integrations-connection-status-v02",
+      "dashboard-refresh-button-v05",
+      "unknown-list-empty-v01",
+      "authentication-mfa-qr-v01",
+      "unknown-empty-download-v08",
+      "integrations-sheets-stale-v07",
+      "billing-bulk-export-v10",
+      "unknown-unavailable-option-v09",
+      "billing-payment-duplicate-v10",
+      "dashboard-duplicate-tiles-v04",
+      "authentication-verification-code-v02",
+      "unknown-unexpected-navigation-v04",
+      "authentication-session-ended-v04",
+      "dashboard-chart-tooltip-v02",
+      "billing-payment-duplicate-v04",
+      "dashboard-total-mismatch-v05",
+      "authentication-invite-link-v06",
+      "unknown-repeated-message-v01",
+      "unknown-empty-download-v05",
+      "billing-invoice-filter-v08",
+      "unknown-list-empty-v06",
+      "authentication-mfa-qr-v04",
+      "authentication-invite-link-v01",
+      "dashboard-empty-chart-v06",
+      "authentication-signin-loop-v10",
+      "unknown-unavailable-option-v07",
+      "billing-payment-pending-v10",
+      "billing-subscription-page-v01",
+      "billing-subscription-page-v08",
+      "integrations-sheets-stale-v08",
+      "unknown-empty-download-v07",
+      "authentication-google-signin-v04",
+      "authentication-verification-code-v06",
+      "unknown-unsaved-changes-v03",
+      "unknown-unsaved-changes-v06",
+      "integrations-connection-status-v09",
+      "authentication-verification-code-v01",
+      "dashboard-dashboard-export-v02",
+      "billing-invoice-filter-v05",
+      "billing-receipt-blank-v09",
+      "billing-subscription-page-v10",
+      "unknown-empty-download-v06",
+      "dashboard-chart-tooltip-v08",
+      "dashboard-chart-tooltip-v06",
+      "authentication-invite-link-v03",
+      "billing-invoice-download-v08",
+      "dashboard-date-filter-v04",
+      "authentication-signin-loop-v04",
+      "dashboard-total-mismatch-v09",
+      "integrations-stripe-sync-v09",
+      "dashboard-refresh-button-v04",
+      "unknown-empty-download-v10",
+      "dashboard-dashboard-export-v09",
+      "dashboard-dashboard-export-v06",
+      "billing-bulk-export-v02",
+      "billing-invoice-filter-v04",
+      "unknown-unexpected-navigation-v01",
+      "integrations-slack-connect-v08",
+      "dashboard-duplicate-tiles-v03",
+      "billing-invoice-download-v09",
+      "billing-receipt-blank-v10",
+      "unknown-repeated-message-v10",
+      "integrations-zapier-test-v09",
+      "dashboard-chart-tooltip-v04",
+      "dashboard-empty-chart-v01",
+      "authentication-signout-v07",
+      "integrations-sheets-stale-v01",
+      "billing-payment-pending-v04",
+      "dashboard-chart-tooltip-v07",
+      "integrations-zapier-test-v05",
+      "unknown-unexpected-navigation-v03",
+      "dashboard-total-mismatch-v10",
+      "integrations-connection-status-v08",
+      "billing-payment-pending-v03",
+      "billing-bulk-export-v01",
+      "authentication-google-signin-v03",
+      "integrations-stripe-sync-v10",
+      "unknown-unavailable-option-v05",
+      "authentication-verification-code-v09",
+      "integrations-slack-connect-v04",
+      "authentication-signout-v01",
+      "unknown-unresponsive-button-v06",
+      "integrations-connection-status-v03",
+      "billing-invoice-download-v03",
+      "billing-payment-duplicate-v03",
+      "dashboard-duplicate-tiles-v10",
+      "billing-invoice-email-v02",
+      "authentication-google-signin-v08",
+      "integrations-paused-sync-v01",
+      "billing-invoice-email-v01",
+      "integrations-sheets-stale-v09",
+      "integrations-save-settings-v09",
+      "billing-receipt-blank-v08",
+      "unknown-empty-download-v02",
+      "unknown-unresponsive-button-v03",
+      "billing-receipt-blank-v06",
+      "unknown-unexpected-navigation-v05",
+      "dashboard-empty-chart-v03",
+      "unknown-repeated-message-v07",
+      "unknown-empty-download-v03",
+      "billing-invoice-download-v10",
+      "dashboard-saved-view-v03",
+      "authentication-mfa-qr-v09",
+      "unknown-repeated-message-v02",
+      "unknown-unavailable-option-v06",
+      "billing-invoice-download-v06",
+      "dashboard-date-filter-v09",
+      "billing-bulk-export-v09",
+      "unknown-blank-page-v09",
+      "billing-receipt-blank-v04",
+      "integrations-save-settings-v04",
+      "authentication-session-ended-v06",
+      "billing-invoice-download-v05",
+      "billing-receipt-blank-v03",
+      "authentication-verification-code-v03",
+      "dashboard-date-filter-v01",
+      "billing-payment-duplicate-v08",
+      "billing-payment-duplicate-v07",
+      "integrations-disconnect-v08",
+      "dashboard-refresh-button-v01",
+      "dashboard-date-filter-v10",
+      "integrations-slack-connect-v05",
+      "integrations-zapier-test-v06",
+      "authentication-verification-code-v08",
+      "billing-payment-pending-v01",
+      "dashboard-duplicate-tiles-v07",
+      "billing-invoice-filter-v09",
+      "authentication-signout-v02",
+      "unknown-blank-page-v03",
+      "dashboard-duplicate-tiles-v01",
+      "unknown-list-empty-v08",
+      "integrations-zapier-test-v03",
+      "authentication-google-signin-v02",
+      "unknown-repeated-message-v05",
+      "integrations-save-settings-v01",
+      "dashboard-duplicate-tiles-v05",
+      "integrations-stripe-sync-v04",
+      "billing-payment-duplicate-v01",
+      "integrations-stripe-sync-v01",
+      "integrations-stripe-sync-v05",
+      "billing-invoice-filter-v02",
+      "integrations-disconnect-v09",
+      "integrations-stripe-sync-v02",
+      "unknown-unsaved-changes-v09",
+      "authentication-signin-loop-v01",
+      "billing-invoice-email-v07",
+      "billing-payment-pending-v09",
+      "unknown-unsaved-changes-v04",
+      "integrations-sheets-stale-v05",
+      "integrations-disconnect-v05",
+      "dashboard-duplicate-tiles-v06",
+      "billing-invoice-download-v02",
+      "unknown-unexpected-navigation-v02",
+      "dashboard-empty-chart-v02",
+      "unknown-unavailable-option-v01",
+      "unknown-unexpected-navigation-v08",
+      "unknown-unavailable-option-v04",
+      "unknown-unsaved-changes-v01",
+      "integrations-stripe-sync-v07",
+      "authentication-reset-link-v02",
+      "integrations-zapier-test-v02",
+      "integrations-sheets-stale-v04",
+      "dashboard-refresh-button-v07",
+      "authentication-verification-code-v05",
+      "authentication-session-ended-v10",
+      "unknown-unresponsive-button-v09",
+      "billing-subscription-page-v06",
+      "dashboard-dashboard-export-v07",
+      "dashboard-total-mismatch-v02",
+      "integrations-save-settings-v03",
+      "dashboard-saved-view-v04",
+      "integrations-stripe-sync-v06",
+      "integrations-slack-connect-v02",
+      "authentication-google-signin-v06",
+      "dashboard-date-filter-v07",
+      "billing-subscription-page-v03",
+      "dashboard-empty-chart-v05",
+      "authentication-mfa-qr-v05",
+      "authentication-mfa-qr-v06",
+      "billing-payment-duplicate-v05",
+      "dashboard-chart-tooltip-v01",
+      "authentication-google-signin-v05",
+      "authentication-verification-code-v04",
+      "integrations-connection-status-v05",
+      "dashboard-date-filter-v05",
+      "dashboard-total-mismatch-v07",
+      "dashboard-chart-tooltip-v05",
+      "billing-bulk-export-v03",
+      "integrations-disconnect-v06",
+      "authentication-signout-v03",
+      "integrations-slack-connect-v01",
+      "billing-invoice-filter-v01",
+      "billing-receipt-blank-v07",
+      "authentication-signout-v04",
+      "unknown-list-empty-v09",
+      "integrations-zapier-test-v04",
+      "integrations-slack-connect-v03",
+      "dashboard-saved-view-v06",
+      "integrations-slack-connect-v09",
+      "authentication-session-ended-v01",
+      "integrations-save-settings-v06",
+      "billing-bulk-export-v07",
+      "authentication-signin-loop-v05",
+      "authentication-reset-link-v05",
+      "billing-receipt-blank-v01",
+      "integrations-paused-sync-v10",
+      "dashboard-dashboard-export-v10",
+      "dashboard-total-mismatch-v01",
+      "authentication-invite-link-v02",
+      "dashboard-dashboard-export-v03",
+      "integrations-stripe-sync-v08",
+      "authentication-mfa-qr-v10",
+      "dashboard-refresh-button-v09",
+      "billing-subscription-page-v05",
+      "billing-bulk-export-v05",
+      "integrations-paused-sync-v05",
+      "integrations-connection-status-v07",
+      "authentication-signout-v06",
+      "unknown-unavailable-option-v10",
+      "billing-invoice-filter-v03",
+      "dashboard-chart-tooltip-v10",
+      "unknown-unsaved-changes-v08",
+      "unknown-unresponsive-button-v10",
+      "unknown-blank-page-v06",
+      "integrations-slack-connect-v10",
+      "authentication-reset-link-v03",
+      "authentication-signout-v09",
+      "billing-subscription-page-v07",
+      "dashboard-refresh-button-v06",
+      "dashboard-saved-view-v05",
+      "dashboard-saved-view-v01",
+      "authentication-signin-loop-v08",
+      "unknown-blank-page-v08",
+      "unknown-blank-page-v10",
+      "authentication-invite-link-v08",
+      "authentication-reset-link-v01",
+      "authentication-mfa-qr-v02",
+      "authentication-session-ended-v08",
+      "integrations-paused-sync-v02",
+      "integrations-stripe-sync-v03",
+      "authentication-invite-link-v07",
+      "unknown-unresponsive-button-v07",
+      "unknown-empty-download-v09",
+      "dashboard-date-filter-v06",
+      "dashboard-total-mismatch-v03",
+      "billing-payment-pending-v05",
+      "integrations-save-settings-v08",
+      "unknown-repeated-message-v06",
+      "billing-subscription-page-v02",
+      "unknown-unresponsive-button-v05",
+      "unknown-unsaved-changes-v05",
+      "authentication-invite-link-v05",
+      "dashboard-refresh-button-v03",
+      "dashboard-date-filter-v03",
+      "integrations-paused-sync-v04",
+      "integrations-zapier-test-v07",
+      "integrations-disconnect-v10",
+      "integrations-zapier-test-v01",
+      "billing-invoice-download-v01",
+      "authentication-signin-loop-v02",
+      "billing-payment-pending-v08",
+      "dashboard-date-filter-v02",
+      "dashboard-dashboard-export-v05",
+      "unknown-list-empty-v04",
+      "billing-invoice-email-v05",
+      "authentication-mfa-qr-v08",
+      "dashboard-dashboard-export-v08",
+      "unknown-blank-page-v04",
+      "integrations-connection-status-v04",
+      "billing-payment-pending-v06",
+      "unknown-unresponsive-button-v02",
+      "dashboard-refresh-button-v10",
+      "unknown-unavailable-option-v08",
+      "unknown-unresponsive-button-v08",
+      "integrations-save-settings-v07",
+      "billing-invoice-filter-v07",
+      "integrations-slack-connect-v07",
+      "authentication-signin-loop-v09",
+      "billing-payment-pending-v02",
+      "billing-invoice-download-v04",
+      "dashboard-empty-chart-v04",
+      "dashboard-empty-chart-v07",
+      "billing-invoice-filter-v06",
+      "dashboard-empty-chart-v10",
+      "dashboard-refresh-button-v02",
+      "unknown-repeated-message-v08",
+      "unknown-unexpected-navigation-v09",
+      "authentication-reset-link-v08",
+      "unknown-list-empty-v10",
+      "unknown-unsaved-changes-v07",
+      "billing-payment-duplicate-v09",
+      "billing-invoice-email-v04",
+      "authentication-mfa-qr-v03",
+      "authentication-signin-loop-v03",
+      "billing-bulk-export-v08",
+      "integrations-zapier-test-v10",
+      "dashboard-empty-chart-v09",
+      "integrations-slack-connect-v06",
+      "unknown-unavailable-option-v02",
+      "billing-receipt-blank-v05",
+      "integrations-connection-status-v01",
+      "authentication-session-ended-v05",
+      "dashboard-saved-view-v08",
+      "authentication-verification-code-v10",
+      "integrations-save-settings-v02",
+      "dashboard-refresh-button-v08",
+      "authentication-mfa-qr-v07",
+      "billing-payment-pending-v07",
+      "integrations-disconnect-v03",
+      "dashboard-duplicate-tiles-v02",
+      "dashboard-empty-chart-v08",
+      "authentication-session-ended-v09",
+      "dashboard-saved-view-v07",
+      "unknown-list-empty-v03",
+      "unknown-unresponsive-button-v01",
+      "dashboard-duplicate-tiles-v08",
+      "billing-invoice-email-v06",
+      "authentication-invite-link-v10",
+      "unknown-blank-page-v01",
+      "dashboard-duplicate-tiles-v09",
+      "unknown-list-empty-v07",
+      "unknown-unexpected-navigation-v10",
+      "billing-invoice-filter-v10",
+      "authentication-signout-v08",
+      "billing-payment-duplicate-v02",
+      "integrations-disconnect-v02",
+      "dashboard-chart-tooltip-v03",
+      "billing-invoice-email-v08",
+      "dashboard-total-mismatch-v08",
+      "unknown-list-empty-v05",
+      "unknown-unexpected-navigation-v06",
+      "unknown-empty-download-v04",
+      "unknown-blank-page-v02",
+      "billing-invoice-download-v07",
+      "integrations-connection-status-v10",
+      "authentication-google-signin-v07",
+      "integrations-disconnect-v01",
+      "integrations-paused-sync-v03",
+      "billing-invoice-email-v10",
+      "billing-invoice-email-v09",
+      "authentication-session-ended-v03",
+      "authentication-google-signin-v09",
+      "authentication-google-signin-v01",
+      "dashboard-total-mismatch-v04",
+      "integrations-disconnect-v04",
+      "authentication-session-ended-v02",
+      "integrations-save-settings-v10",
+      "unknown-unresponsive-button-v04",
+      "unknown-unsaved-changes-v02",
+      "authentication-reset-link-v04",
+      "unknown-repeated-message-v09",
+      "authentication-invite-link-v04",
+      "billing-invoice-email-v03",
+      "billing-subscription-page-v09",
+      "billing-payment-duplicate-v06",
+      "unknown-repeated-message-v03",
+      "authentication-google-signin-v10",
+      "authentication-reset-link-v10",
+      "unknown-unavailable-option-v03"
+    ],
+    "validation": [
+      "dashboard-dashboard-loading-v06",
+      "dashboard-dashboard-loading-v04",
+      "billing-invoice-draft-v02",
+      "billing-invoice-draft-v03",
+      "authentication-account-email-v01",
+      "unknown-loading-page-v01",
+      "dashboard-dashboard-loading-v07",
+      "authentication-account-email-v06",
+      "dashboard-dashboard-loading-v03",
+      "billing-invoice-draft-v07",
+      "integrations-reconnect-v04",
+      "dashboard-dashboard-loading-v08",
+      "billing-invoice-draft-v09",
+      "authentication-account-email-v10",
+      "integrations-reconnect-v03",
+      "integrations-reconnect-v10",
+      "billing-invoice-draft-v01",
+      "dashboard-dashboard-loading-v09",
+      "integrations-reconnect-v06",
+      "authentication-account-email-v04",
+      "unknown-loading-page-v05",
+      "billing-invoice-draft-v06",
+      "integrations-reconnect-v09",
+      "unknown-loading-page-v06",
+      "unknown-loading-page-v10",
+      "integrations-reconnect-v01",
+      "dashboard-dashboard-loading-v10",
+      "dashboard-dashboard-loading-v02",
+      "dashboard-dashboard-loading-v01",
+      "unknown-loading-page-v09",
+      "unknown-loading-page-v04",
+      "integrations-reconnect-v05",
+      "integrations-reconnect-v08",
+      "unknown-loading-page-v08",
+      "billing-invoice-draft-v10",
+      "unknown-loading-page-v03",
+      "unknown-loading-page-v07",
+      "authentication-account-email-v09",
+      "dashboard-dashboard-loading-v05",
+      "integrations-reconnect-v07",
+      "authentication-account-email-v03",
+      "integrations-reconnect-v02",
+      "authentication-account-email-v07",
+      "authentication-account-email-v08",
+      "billing-invoice-draft-v08",
+      "billing-invoice-draft-v04",
+      "billing-invoice-draft-v05",
+      "authentication-account-email-v05",
+      "authentication-account-email-v02",
+      "unknown-loading-page-v02"
+    ],
+    "test": [
+      "dashboard-tooltip-clipped-v03",
+      "dashboard-tooltip-clipped-v04",
+      "billing-currency-label-v06",
+      "billing-currency-label-v01",
+      "authentication-reset-email-v03",
+      "unknown-generic-error-v04",
+      "dashboard-tooltip-clipped-v07",
+      "authentication-reset-email-v04",
+      "dashboard-tooltip-clipped-v02",
+      "billing-currency-label-v04",
+      "integrations-duplicate-sync-v04",
+      "dashboard-tooltip-clipped-v09",
+      "billing-currency-label-v05",
+      "authentication-reset-email-v07",
+      "integrations-duplicate-sync-v08",
+      "integrations-duplicate-sync-v05",
+      "billing-currency-label-v02",
+      "dashboard-tooltip-clipped-v10",
+      "integrations-duplicate-sync-v10",
+      "authentication-reset-email-v10",
+      "unknown-generic-error-v07",
+      "billing-currency-label-v08",
+      "integrations-duplicate-sync-v01",
+      "unknown-generic-error-v09",
+      "unknown-generic-error-v01",
+      "integrations-duplicate-sync-v07",
+      "dashboard-tooltip-clipped-v01",
+      "dashboard-tooltip-clipped-v05",
+      "dashboard-tooltip-clipped-v06",
+      "unknown-generic-error-v10",
+      "unknown-generic-error-v02",
+      "integrations-duplicate-sync-v06",
+      "integrations-duplicate-sync-v02",
+      "unknown-generic-error-v06",
+      "billing-currency-label-v10",
+      "unknown-generic-error-v05",
+      "unknown-generic-error-v08",
+      "authentication-reset-email-v06",
+      "dashboard-tooltip-clipped-v08",
+      "integrations-duplicate-sync-v03",
+      "authentication-reset-email-v01",
+      "integrations-duplicate-sync-v09",
+      "authentication-reset-email-v02",
+      "authentication-reset-email-v09",
+      "billing-currency-label-v09",
+      "billing-currency-label-v03",
+      "billing-currency-label-v07",
+      "authentication-reset-email-v05",
+      "authentication-reset-email-v08",
+      "unknown-generic-error-v03"
+    ]
+  }
+}

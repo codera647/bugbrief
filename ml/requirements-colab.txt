@@ -1,0 +1,10 @@
+# Verified on PyPI; GPU execution still needs a Colab run.
+# Keep Colab's preinstalled CUDA PyTorch (2.6+); do not replace it with a CPU wheel.
+transformers==4.57.1
+peft==0.17.1
+accelerate==1.10.1
+bitsandbytes==0.48.1
+pydantic==2.12.3
+safetensors==0.6.2
+huggingface-hub==0.35.3
+jinja2==3.1.6

@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "name": "BugBrief v2",
+  "status": "experimental",
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "adapter_path": "bugbrief-qlora-02-adapter/bugbrief-qlora-02/adapter",
+  "adapter_sha256": "fafedd504f56a43b713189a055244cbe487925795e2f871d32b5cd0da132b5f2",
+  "run_sha256": "6b79b93ebedf27186eaa6ab061cbcbae3d4144871f01f84c4bb5c81ddcf09842",
+  "prompt_sha256": "fe75885995ffcd5187f21accccd1ed495460cd5cfba9ef859719a8313422f241",
+  "adapter_config_sha256": "e0dfd07e977d8f3b1028201729847ae114953c31b43f772b1a28dcee5a7013d4"
+}

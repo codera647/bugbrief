@@ -1,0 +1,4 @@
+# GPU training only. Keep separate from the small API environment.
+-r ../backend/requirements-model.in
+pydantic>=2.10,<3
+bitsandbytes>=0.45,<1

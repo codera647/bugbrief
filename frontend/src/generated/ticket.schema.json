@@ -1,0 +1,202 @@
+{
+  "$defs": {
+    "Environment": {
+      "additionalProperties": false,
+      "properties": {
+        "browser": {
+          "anyOf": [
+            {
+              "maxLength": 240,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Browser"
+        },
+        "browser_version": {
+          "anyOf": [
+            {
+              "maxLength": 240,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Browser Version"
+        },
+        "operating_system": {
+          "anyOf": [
+            {
+              "maxLength": 240,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "Operating System"
+        },
+        "app_version": {
+          "anyOf": [
+            {
+              "maxLength": 240,
+              "minLength": 1,
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "title": "App Version"
+        },
+        "other_details": {
+          "items": {
+            "maxLength": 240,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 10,
+          "title": "Other Details",
+          "type": "array"
+        }
+      },
+      "required": [
+        "browser",
+        "browser_version",
+        "operating_system",
+        "app_version",
+        "other_details"
+      ],
+      "title": "Environment",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "maxLength": 120,
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "product_area": {
+      "enum": [
+        "Authentication",
+        "Billing",
+        "Dashboard",
+        "Integrations",
+        "Unknown"
+      ],
+      "title": "Product Area",
+      "type": "string"
+    },
+    "product_area_evidence": {
+      "anyOf": [
+        {
+          "maxLength": 240,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Product Area Evidence"
+    },
+    "actual_behavior": {
+      "anyOf": [
+        {
+          "maxLength": 1000,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Actual Behavior"
+    },
+    "expected_behavior": {
+      "anyOf": [
+        {
+          "maxLength": 1000,
+          "minLength": 1,
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Expected Behavior"
+    },
+    "expected_behavior_basis": {
+      "enum": [
+        "Reported",
+        "Inferred",
+        "Unknown"
+      ],
+      "title": "Expected Behavior Basis",
+      "type": "string"
+    },
+    "reported_environment": {
+      "$ref": "#/$defs/Environment"
+    },
+    "reported_steps": {
+      "anyOf": [
+        {
+          "items": {
+            "maxLength": 240,
+            "minLength": 1,
+            "type": "string"
+          },
+          "maxItems": 10,
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "title": "Reported Steps"
+    },
+    "missing_information": {
+      "items": {
+        "maxLength": 240,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 10,
+      "title": "Missing Information",
+      "type": "array"
+    },
+    "follow_up_questions": {
+      "items": {
+        "maxLength": 240,
+        "minLength": 1,
+        "type": "string"
+      },
+      "maxItems": 3,
+      "title": "Follow Up Questions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "title",
+    "product_area",
+    "product_area_evidence",
+    "actual_behavior",
+    "expected_behavior",
+    "expected_behavior_basis",
+    "reported_environment",
+    "reported_steps",
+    "missing_information",
+    "follow_up_questions"
+  ],
+  "title": "Ticket",
+  "type": "object"
+}

@@ -1,0 +1,3 @@
+# Frozen datasets and Colab manifests fingerprint exact bytes, including source.
+# Preserve the checked-in files on Windows and Linux rather than converting EOLs.
+* -text
